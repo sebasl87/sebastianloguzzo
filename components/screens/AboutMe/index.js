@@ -1,13 +1,14 @@
 import styled from "styled-components";
-import { AboutMeMenu, DisplayMobileInfoAboutMe, ContactMe } from "@/components/organisms";
 import { SectionCard, TextTable, TitleCard } from "@/components/atoms";
+import { AboutMeMenu, DisplayMobileInfoAboutMe, ContactMe } from "@/components/organisms";
+import { SnipetsAboutMe } from "@/components/molecules";
 import { useState } from "react";
 import {
   dataAboutMe,
   dataFalabella,
-  dataKinsper,
+  dataHotelop,
   dataSkydropx,
-  dataLapzo,
+  dataIndec,
   dataFreelance,
   dataMusic,
   dataHardware,
@@ -23,13 +24,12 @@ import {
   dataFamilyMobile,
   dataAboutMeMobile,
   dataFalabellaMobile,
-  dataKinsperMobile,
+  dataHotelopMobile,
   dataSkydropxMobile,
-  dataLapzoMobile,
+  dataIndecMobile,
   dataFreelanceMobile,
-} from "../../../constants";
-import { SnipetsAboutMe } from "../../molecules";
-import { useBreakpoints } from "../../../hooks/useBreakpoints";
+} from "@/constants";
+import { useBreakpoints } from "@/hooks/useBreakpoints";
 
 const Layout = styled.div`
   width: 100%;
@@ -173,9 +173,9 @@ const AboutMe = () => {
               handeClickEducation={handeClickEducation}
               handleClickAboutMe={() => setNote("dataAboutMe")}
               handleClickFalabella={() => setNote("dataFalabella")}
-              handleClickKinsper={() => setNote("dataKinsper")}
+              handleClickHotelop={() => setNote("dataHotelop")}
               handleClickSkydropx={() => setNote("dataSkydropx")}
-              handleClickLapzo={() => setNote("dataLapzo")}
+              handleClickIndec={() => setNote("dataIndec")}
               handleClickFreelance={() => setNote("dataFreelance")}
               handleClickHardware={() => setNote("dataHardware")}
               handleClickMusic={() => setNote("dataMusic")}
@@ -200,12 +200,12 @@ const AboutMe = () => {
                             ? "about-me"
                             : note === "dataFalabella"
                             ? "falabella financiero"
-                            : note === "dataKinsper"
-                            ? "kinsper"
+                            : note === "dataHotelop"
+                            ? "hotelop"
                             : note === "dataSkydropx"
                             ? "skydropx"
-                            : note === "dataLapzo"
-                            ? "lapzo"
+                            : note === "dataIndec"
+                            ? "indec"
                             : note === "dataHardware"
                             ? "computer-hardware"
                             : note === "dataMusic"
@@ -234,12 +234,12 @@ const AboutMe = () => {
                       ? dataAboutMe
                       : note === "dataFalabella"
                       ? dataFalabella
-                      : note === "dataKinsper"
-                      ? dataKinsper
+                      : note === "dataHotelop"
+                      ? dataHotelop
                       : note === "dataSkydropx"
                       ? dataSkydropx
-                      : note === "dataLapzo"
-                      ? dataLapzo
+                      : note === "dataIndec"
+                      ? dataIndec
                       : note === "dataClear"
                       ? dataClear
                       : note === "dataMusic"
@@ -266,7 +266,7 @@ const AboutMe = () => {
             {!isLg &&
               (note === "dataAboutMe" ||
                 note === "dataSkydropx" ||
-                note === "dataLapzo" ||
+                note === "dataIndec" ||
                 note === "dataFreelance" ||
                 note === "dataHardware" ||
                 note === "dataMusic") && <SnipetsAboutMe isMobile />}
@@ -285,9 +285,9 @@ const AboutMe = () => {
               handeClickEducation={handeClickEducation}
               handleClickAboutMe={() => setNote("dataAboutMe")}
               handleClickFalabella={() => setNote("dataFalabella")}
-              handleClickKinsper={() => setNote("dataKinsper")}
+              handleClickHotelop={() => setNote("dataHotelop")}
               handleClickSkydropx={() => setNote("dataSkydropx")}
-              handleClickLapzo={() => setNote("dataLapzo")}
+              handleClickIndec={() => setNote("dataIndec")}
               handleClickFreelance={() => setNote("dataFreelance")}
               handleClickHardware={() => setNote("dataHardware")}
               handleClickMusic={() => setNote("dataMusic")}
@@ -315,12 +315,12 @@ const AboutMe = () => {
                   ? dataAboutMeMobile
                   : note === "dataFalabella"
                   ? dataFalabellaMobile
-                  : note === "dataKinsper"
-                  ? dataKinsperMobile
+                  : note === "dataHotelop"
+                  ? dataHotelopMobile
                   : note === "dataSkydropx"
                   ? dataSkydropxMobile
-                  : note === "dataLapzo"
-                  ? dataLapzoMobile
+                  : note === "dataIndec"
+                  ? dataIndecMobile
                   : note === "dataFreelance"
                   ? dataFreelanceMobile
                   : dataHightMobile

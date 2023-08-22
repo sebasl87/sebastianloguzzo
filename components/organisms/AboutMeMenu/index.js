@@ -57,9 +57,9 @@ export const AboutMeMenu = ({
   section,
   handleClickAboutMe,
   handleClickFalabella,
-  handleClickKinsper,
+  handleClickHotelop,
   handleClickSkydropx,
-  handleClickLapzo,
+  handleClickIndec,
   handleClickFreelance,
   handleClickHardware,
   handleClickMusic,
@@ -132,21 +132,21 @@ export const AboutMeMenu = ({
             />
             <SectionSelector
               isMobile={isMobile}
-              nameSection="kinsper"
-              handleClick={handleClickKinsper}
-              active={note === "dataKinsper"}
-            />
-            <SectionSelector
-              isMobile={isMobile}
               nameSection="skydropx"
               handleClick={handleClickSkydropx}
               active={note === "dataSkydropx"}
             />
             <SectionSelector
               isMobile={isMobile}
-              nameSection="lapzo"
-              handleClick={handleClickLapzo}
-              active={note === "dataLapzo"}
+              nameSection="hotelop"
+              handleClick={handleClickHotelop}
+              active={note === "dataHotelop"}
+            />
+            <SectionSelector
+              isMobile={isMobile}
+              nameSection="indec"
+              handleClick={handleClickIndec}
+              active={note === "dataIndec"}
             />
             <SectionSelector
               isMobile={isMobile}
@@ -235,18 +235,18 @@ export const AboutMeMenu = ({
         {(isLl || isLg) && (
           <>
             <TitleSection title="contacts" isComplete />
-            <MailTo href="mailto:exequielsosa@gmail.com">
+            <MailTo href="mailto:sebastian.loguzzo@gmail.com">
               <ContactSection
-                title="exequielsosa@gmail.com"
+                title="sebastian.loguzzo@gmail.com"
                 icon="/mailVector.svg"
               />
             </MailTo>
 
             <ContactSection
-              title="+5491158959825"
+              title="+5491132138668"
               icon="/phoneVector.svg"
               handleClick={() =>
-                window.open("https://wa.me/541158959825", "_blank")
+                window.open("https://wa.me/541132138668", "_blank")
               }
             />
           </>

@@ -48,12 +48,12 @@ export const dataColombia = [
   },
 ];
 
-export const dataLapzoCards = [
+export const dataIndecCards = [
   {
-    nameProject: "Lapzo by lernit",
+    nameProject: "Indec by lernit",
     nameDetail: "// _learning",
     projectDescription: "Technical leader of the new learning platform",
-    url: 'url("lapzo.png")',
+    url: 'url("indec.png")',
     link: "https://universidadoxxogas.com/",
   },
 ];

@@ -54,9 +54,9 @@ export const dataFalabellaMobile = [
   },
 ];
 
-export const dataKinsperMobile = [
+export const dataHotelopMobile = [
   {
-    title: "kinsper",
+    title: "hotelop",
     text: "** 2023 - Today\n\n Freelance work\n\n Projects:\n\n Vetisure: platform for entry, control and management of insurance policies.\n\n Uverified: bank identity verification and management platform.\n\n In both projects in charge of frontend and backend.\n\n Skills: Next.js, Tailwind CSS, Prisma, Styled Components, FlowBite, Vercel, Clerk user management, TypeScript. /",
   },
 ];
@@ -68,9 +68,9 @@ export const dataSkydropxMobile = [
   },
 ];
 
-export const dataLapzoMobile = [
+export const dataIndecMobile = [
   {
-    title: "lapzo",
+    title: "indec",
     text: "** 2022\n\n Tech Lead.\n\n Online learning platform.\n\n In charge of the transfer team of the entire platform from React to Monorepo and the new design.\n\n The team consisted of both frontend and backend.\n\n Skills: Jira, Confluence, Agile Methodologies, Monorepo, ReactJs, Storybook. /",
   },
 ];

@@ -15,7 +15,7 @@ export const MenuProjects = ({
   valueLandings,
   valueB2C,
   valueLabels,
-  valueLapzo,
+  valueIndec,
   valueAus,
   valueDillon,
   valueNidit,
@@ -23,7 +23,7 @@ export const MenuProjects = ({
   onChangeLandings,
   onChangeB2C,
   onChangeLabels,
-  onChangeLapzo,
+  onChangeIndec,
   onChangeAus,
   onChangeDillon,
   onChangeNidit,
@@ -69,10 +69,10 @@ export const MenuProjects = ({
         onChange={onChangeColombia}
       />
       <CheckBox
-        label="Lapzo by lernit"
-        value={valueLapzo}
-        checked={valueLapzo}
-        onChange={onChangeLapzo}
+        label="Indec by lernit"
+        value={valueIndec}
+        checked={valueIndec}
+        onChange={onChangeIndec}
       />
       <CheckBox
         label="aUshuaia.com"
@@ -93,13 +93,13 @@ export const MenuProjects = ({
         onChange={onChangeNidit}
       />
        <CheckBox
-        label="Vetinsure - Kinsper"
+        label="Vetinsure - Hotelop"
         value={valueVeti}
         checked={valueVeti}
         onChange={onChangeVeti}
       />
       <CheckBox
-        label="Uverified - Kinsper"
+        label="Uverified - Hotelop"
         value={valueUverified}
         checked={valueUverified}
         onChange={onChangeUverified}

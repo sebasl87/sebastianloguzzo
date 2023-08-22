@@ -48,9 +48,9 @@ export const dataColombiaMobile = [
   },
 ];
 
-export const dataLapzoCardsMobile = [
+export const dataIndecCardsMobile = [
   {
-    nameProject: "Lapzo by lernit",
+    nameProject: "Indec by lernit",
     nameDetail: "// _learning",
     projectDescription: "Technical leader of the new learning platform",
     url: 'url("lapzo2.png")',
