@@ -82,7 +82,7 @@ export const HeaderMobile = () => {
     <LayoutGral>
       <Layout>
         <LayoutMenu>
-          <Name>exequiel-sosa</Name>
+          <Name>sebastianloguzzo</Name>
           <MenuBtn
             src={open ? "/cruz.svg" : "/menuBtn.svg"}
             onClick={toogleOpen}

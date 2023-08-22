@@ -41,7 +41,7 @@ border-left: ${(props) => props.left && "1px solid rgba(96, 123, 150, 0.4)"};
 `;
 
 const ImageLogo = styled.img`
-  width: 43px;
+  width: 20px;
   background-color: transparent;
 `;
 
@@ -65,7 +65,7 @@ export const FooterMobile = () => {
           rigth
           left
           onClick={() =>
-            window.open("https://twitter.com/soyexequielsosa", "_blank")
+            window.open("https://twitter.com/loggi87", "_blank")
           }
         >
           <ImageLogo src="/twitter.svg" />
@@ -73,15 +73,15 @@ export const FooterMobile = () => {
         <Logo
           rigth
           onClick={() =>
-            window.open("https://facebook.com/exequiel.sosa", "_blank")
+            window.open("https://www.linkedin.com/in/sebastian-loguzzo/", "_blank")
           }
         >
-          <ImageLogo src="/facebook.svg" />
+          <ImageLogo src="/linkedin.svg" />
         </Logo>
 
         <Logo
           onClick={() =>
-            window.open("https://github.com/exequielsosa", "_blank")
+            window.open("https://github.com/sebasl87", "_blank")
           }
         >
           <ImageGit src="/github2.svg" />

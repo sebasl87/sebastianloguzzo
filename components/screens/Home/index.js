@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { TitleHome, HomeSnipets } from "@/components/atoms";
-import { useBreakpoints } from "../../../hooks/useBreakpoints";
+import { useBreakpoints } from "@/hooks/useBreakpoints";
 
 const ImageBlurBlue = styled.img`
   position: absolute;
@@ -132,7 +132,7 @@ const Home = () => {
             <LayoutBody>
               <TitleHome
                 handleClick={() =>
-                  window.open("https://github.com/exequielsosa", "_blank")
+                  window.open("https://github.com/sebasl87", "_blank")
                 }
               />
               <LayoutSnipets>
@@ -148,7 +148,7 @@ const Home = () => {
         <LayoutMobile>
           <TitleHome
             handleClick={() =>
-              window.open("https://github.com/exequielsosa", "_blank")
+              window.open("https://github.com/sebasl87", "_blank")
             }
           />
           <ImageBlurBlueMobile src="/blueBack.svg" />

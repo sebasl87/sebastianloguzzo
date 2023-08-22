@@ -157,7 +157,7 @@ export const TitleHome = ({ handleClick }) => {
   return (
     <Layout>
       <Hi>Hi all. I am</Hi>
-      <Name>Exequiel Sosa</Name>
+      <Name>Sebastian Loguzzo</Name>
       <Frontend>{">"} Front-end developer</Frontend>
       <CanSee>// you can also see it on my Github page</CanSee>
       {isXs ? (
@@ -167,14 +167,14 @@ export const TitleHome = ({ handleClick }) => {
             <Git>githubLink</Git>
             <Equal>=</Equal>
           </LayoutConst>
-          <Link onClick={handleClick}>“https://github.com/exequielsosa”</Link>
+          <Link onClick={handleClick}>“https://github.com/sebasl87</Link>
         </LayoutLinkMobile>
       ) : (
         <LayoutLink>
           <Const>const</Const>
           <Git>githubLink</Git>
           <Equal>=</Equal>
-          <Link onClick={handleClick}>“https://github.com/exequielsosa”</Link>
+          <Link onClick={handleClick}>“https://github.com/sebasl87</Link>
         </LayoutLink>
       )}
     </Layout>

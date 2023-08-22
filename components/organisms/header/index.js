@@ -70,7 +70,7 @@ export const Header = () => {
   const route = router.asPath;
   return (
     <Layout>
-      <Name>exequiel-sosa</Name>
+      <Name>sebastianloguzzo</Name>
       <AlignContent>
         <MenuCenter isSelected={route === "/"} onClick={() => router.push("/")}>
           _hello
