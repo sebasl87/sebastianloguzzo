@@ -7,6 +7,7 @@ import {
   dataAboutMe,
   dataFalabella,
   dataHotelop,
+  dataHumantech,
   dataSkydropx,
   dataIndec,
   dataFreelance,
@@ -25,6 +26,7 @@ import {
   dataAboutMeMobile,
   dataFalabellaMobile,
   dataHotelopMobile,
+  dataHumantechMobile,
   dataSkydropxMobile,
   dataIndecMobile,
   dataFreelanceMobile,
@@ -176,6 +178,7 @@ const AboutMe = () => {
               handleClickHotelop={() => setNote("dataHotelop")}
               handleClickSkydropx={() => setNote("dataSkydropx")}
               handleClickIndec={() => setNote("dataIndec")}
+              handleClickHumantech={() => setNote("dataHumantech")}
               handleClickFreelance={() => setNote("dataFreelance")}
               handleClickHardware={() => setNote("dataHardware")}
               handleClickMusic={() => setNote("dataMusic")}
@@ -206,6 +209,8 @@ const AboutMe = () => {
                             ? "skydropx"
                             : note === "dataIndec"
                             ? "indec"
+                            : note === "dataHumantech"
+                            ? "humantech"
                             : note === "dataHardware"
                             ? "computer-hardware"
                             : note === "dataMusic"
@@ -240,6 +245,8 @@ const AboutMe = () => {
                       ? dataSkydropx
                       : note === "dataIndec"
                       ? dataIndec
+                      : note === "dataHumantech"
+                      ? dataHumantech
                       : note === "dataClear"
                       ? dataClear
                       : note === "dataMusic"
@@ -267,6 +274,7 @@ const AboutMe = () => {
               (note === "dataAboutMe" ||
                 note === "dataSkydropx" ||
                 note === "dataIndec" ||
+                note === "dataHumantech" ||
                 note === "dataFreelance" ||
                 note === "dataHardware" ||
                 note === "dataMusic") && <SnipetsAboutMe isMobile />}
@@ -286,6 +294,7 @@ const AboutMe = () => {
               handleClickAboutMe={() => setNote("dataAboutMe")}
               handleClickFalabella={() => setNote("dataFalabella")}
               handleClickHotelop={() => setNote("dataHotelop")}
+              handleClickHumantech={() => setNote("dataHumantech")}
               handleClickSkydropx={() => setNote("dataSkydropx")}
               handleClickIndec={() => setNote("dataIndec")}
               handleClickFreelance={() => setNote("dataFreelance")}
@@ -317,6 +326,8 @@ const AboutMe = () => {
                   ? dataFalabellaMobile
                   : note === "dataHotelop"
                   ? dataHotelopMobile
+                  : note === "dataHumantech"
+                  ? dataHumantechMobile
                   : note === "dataSkydropx"
                   ? dataSkydropxMobile
                   : note === "dataIndec"

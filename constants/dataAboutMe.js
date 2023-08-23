@@ -47,7 +47,7 @@ export const dataAboutMe = [
   {
     number: "10",
     symbol: "*",
-    text: "'Be honest and respect to other' is my rule",
+    text: "Be honest and respect to other is my rule",
   },  
   {
     number: "11",

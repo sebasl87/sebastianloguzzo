@@ -75,6 +75,13 @@ export const dataIndecMobile = [
   },
 ];
 
+export const dataHumantechMobile = [
+  {
+    title: "hotelop",
+    text: "** 2023 - Today\n\n Freelance work\n\n Projects:\n\n Vetisure: platform for entry, control and management of insurance policies.\n\n Uverified: bank identity verification and management platform.\n\n In both projects in charge of frontend and backend.\n\n Skills: Next.js, Tailwind CSS, Prisma, Styled Components, FlowBite, Vercel, Clerk user management, TypeScript. /",
+  },
+];
+
 export const dataFreelanceMobile = [
   {
     title: "freelance",

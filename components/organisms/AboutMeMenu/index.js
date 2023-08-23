@@ -58,6 +58,7 @@ export const AboutMeMenu = ({
   handleClickAboutMe,
   handleClickFalabella,
   handleClickHotelop,
+  handleClickHumantech,
   handleClickSkydropx,
   handleClickIndec,
   handleClickFreelance,
@@ -147,6 +148,12 @@ export const AboutMeMenu = ({
               nameSection="indec"
               handleClick={handleClickIndec}
               active={note === "dataIndec"}
+            />
+            <SectionSelector
+              isMobile={isMobile}
+              nameSection="humantech"
+              handleClick={handleClickHumantech}
+              active={note === "dataHumantech"}
             />
             <SectionSelector
               isMobile={isMobile}
