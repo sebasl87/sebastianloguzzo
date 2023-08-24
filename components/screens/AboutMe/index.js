@@ -12,7 +12,7 @@ import {
   dataIndec,
   dataFreelance,
   dataMusic,
-  dataHardware,
+  dataTrips,
   dataFamily,
   dataHight,
   dataUniversity,
@@ -20,7 +20,7 @@ import {
   dataUniversityMobile,
   dataHightMobile,
   dataOthersMobile,
-  dataHardwareMobile,
+  dataTripsMobile,
   dataMusicMobile,
   dataFamilyMobile,
   dataAboutMeMobile,
@@ -142,7 +142,7 @@ const AboutMe = () => {
   const handeClickInterest = () => {
     setSection("");
     setSection("interest");
-    setNote("dataHardware");
+    setNote("dataTrips");
   };
 
   const handeClickEducation = () => {
@@ -180,7 +180,7 @@ const AboutMe = () => {
               handleClickIndec={() => setNote("dataIndec")}
               handleClickHumantech={() => setNote("dataHumantech")}
               handleClickFreelance={() => setNote("dataFreelance")}
-              handleClickHardware={() => setNote("dataHardware")}
+              handleClickHardware={() => setNote("dataTrips")}
               handleClickMusic={() => setNote("dataMusic")}
               handleClickFamily={() => setNote("dataFamily")}
               handleClickHight={() => setNote("dataHight")}
@@ -211,7 +211,7 @@ const AboutMe = () => {
                             ? "indec"
                             : note === "dataHumantech"
                             ? "humantech"
-                            : note === "dataHardware"
+                            : note === "dataTrips"
                             ? "computer-hardware"
                             : note === "dataMusic"
                             ? "music"
@@ -251,8 +251,8 @@ const AboutMe = () => {
                       ? dataClear
                       : note === "dataMusic"
                       ? dataMusic
-                      : note === "dataHardware"
-                      ? dataHardware
+                      : note === "dataTrips"
+                      ? dataTrips
                       : note === "dataFamily"
                       ? dataFamily
                       : note === "dataHight"
@@ -276,7 +276,7 @@ const AboutMe = () => {
                 note === "dataIndec" ||
                 note === "dataHumantech" ||
                 note === "dataFreelance" ||
-                note === "dataHardware" ||
+                note === "dataTrips" ||
                 note === "dataMusic") && <SnipetsAboutMe isMobile />}
           </Body>
         </>
@@ -298,7 +298,7 @@ const AboutMe = () => {
               handleClickSkydropx={() => setNote("dataSkydropx")}
               handleClickIndec={() => setNote("dataIndec")}
               handleClickFreelance={() => setNote("dataFreelance")}
-              handleClickHardware={() => setNote("dataHardware")}
+              handleClickHardware={() => setNote("dataTrips")}
               handleClickMusic={() => setNote("dataMusic")}
               handleClickFamily={() => setNote("dataFamily")}
               handleClickHight={() => setNote("dataHight")}
@@ -314,8 +314,8 @@ const AboutMe = () => {
                   ? dataUniversityMobile
                   : note === "dataOthers"
                   ? dataOthersMobile
-                  : note === "dataHardware"
-                  ? dataHardwareMobile
+                  : note === "dataTrips"
+                  ? dataTripsMobile
                   : note === "dataMusic"
                   ? dataMusicMobile
                   : note === "dataFamily"

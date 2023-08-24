@@ -1,107 +1,57 @@
 export const dataFamily = [
   {
     number: "1",
-    symbol: "/",
-    text: "** personal interests and family",
+    symbol: "/**",
+    text: "my family is priority 0",
   },
   {
     number: "2",
     symbol: "*",
-    text: "I am also a proud family man. I am ",
+    text: "I am proud of my family. Not just ",
   },
   {
     number: "3",
     symbol: "*",
-    text: "happily married and have two wonderful",
+    text: "my two kids and wife even my ",
   },
   {
     number: "4",
     symbol: "*",
-    text: " children, aged 14 and 8 years old. Being ",
+    text: "daughter, mother, father, brother ",
   },
   {
     number: "5",
     symbol: "*",
-    text: "a father is a source of immense joy and ",
+    text: "in law, mother in law and father in law.",
   },
   {
     number: "6",
     symbol: "*",
-    text: "fulfillment, and I cherish the moments",
-  },
+    text: "I enjoy every moment with them, having a ",
+  },  
   {
     number: "7",
     symbol: "*",
-    text: " spent with my family. During my leisure",
-  },  
+    text: "barbacue (Asado) or just drinking ",
+  },
   {
     number: "8",
     symbol: "*",
-    text: " time, I love engaging in outdoor",
+    text: "a hurry mates.",
   },
   {
     number: "9",
     symbol: "*",
-    text: " activities and exploring new places",
+    text: "I feel thar my more important step ",
   },
   {
     number: "10",
     symbol: "*",
-    text: " with my loved ones. Playing with my",
+    text: "in my life is and will be my family.",
   },
-  {
+   {
     number: "11",
-    symbol: "*",
-    text: " children brings out the child in me,",
-  },
-  {
-    number: "12",
-    symbol: "*",
-    text: " and I cherish every opportunity to create",
-  },
-  {
-    number: "13",
-    symbol: "*",
-    text: " cherished memories with them. Spending ",
-  },
-  {
-    number: "14",
-    symbol: "*",
-    text: "quality time with my family is a priority,",
-  },
-  {
-    number: "15",
-    symbol: "*",
-    text: " as it strengthens our bonds and fosters",
-  },
-  {
-    number: "16",
-    symbol: "*",
-    text: " a sense of togetherness. Whether it's ",
-  },
-  {
-    number: "17",
-    symbol: "*",
-    text: "going on adventures, playing games, or",
-  },
-  {
-    number: "18",
-    symbol: "*",
-    text: " simply enjoying each other's company, ",
-  },
-  {
-    number: "19",
-    symbol: "*",
-    text: "family time holds a special place",
-  },
-  {
-    number: "20",
-    symbol: "*",
-    text: " in my heart.",
-  },
-  {
-    number: "21",
-    symbol: "*",
-    text: "/",
+    symbol: "**/",
+    text: "",
   },
 ];

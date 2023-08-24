@@ -185,7 +185,7 @@ export const AboutMeMenu = ({
               isMobile={isMobile}
               nameSection="computer-hardware"
               handleClick={handleClickHardware}
-              active={note === "dataHardware"}
+              active={note === "dataTrips"}
             />
             <SectionSelector
               isMobile={isMobile}
