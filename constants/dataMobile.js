@@ -21,7 +21,7 @@ export const dataOthersMobile = [
 
 export const dataTripsMobile = [
   {
-    title: "computer-hardware",
+    title: "trips",
     text: "** PC hardware enthusiast\n\n Passionate about PC hardware and technology enthusiast. Experienced in assembling, upgrading, and optimizing computer systems. Always up-to-date with the latest trends and advancements in components. Eager to contribute and grow in the field of PC hardware to take technology to the next level. /",
   },
 ];

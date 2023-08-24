@@ -183,7 +183,7 @@ export const AboutMeMenu = ({
           <>
             <SectionSelector
               isMobile={isMobile}
-              nameSection="computer-hardware"
+              nameSection="trips"
               handleClick={handleClickHardware}
               active={note === "dataTrips"}
             />

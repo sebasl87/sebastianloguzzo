@@ -212,7 +212,7 @@ const AboutMe = () => {
                             : note === "dataHumantech"
                             ? "humantech"
                             : note === "dataTrips"
-                            ? "computer-hardware"
+                            ? "trips"
                             : note === "dataMusic"
                             ? "music"
                             : note === "dataFamily"
