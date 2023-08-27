@@ -5,13 +5,6 @@ export const dataUniversityMobile = [
   },
 ];
 
-export const dataHightMobile = [
-  {
-    title: "hight-school",
-    text: "** high school\n\n Colegio San Agustín (1990 - 1994)\n\n During the period from 1990 to 1994, I completed my high school education at Colegio San Agustín. This foundational phase not only provided me with a strong academic background but also instilled essential values and a commitment to excellence that continue to guide me throughout my personal and professional life. /",
-  },
-];
-
 export const dataOthersMobile = [
   {
     title: "developer skills",

@@ -221,21 +221,15 @@ export const AboutMeMenu = ({
           <>
             <SectionSelector
               isMobile={isMobile}
-              nameSection="hight-school"
-              handleClick={handleClickHight}
-              active={note === "dataHight"}
-            />
-            <SectionSelector
-              isMobile={isMobile}
-              nameSection="university"
-              handleClick={handleClickUniversity}
-              active={note === "dataUniversity"}
-            />
-            <SectionSelector
-              isMobile={isMobile}
               nameSection="developer skills"
               handleClick={handleClickOthers}
               active={note === "dataOthers"}
+            />
+            <SectionSelector
+              isMobile={isMobile}
+              nameSection="schooling"
+              handleClick={handleClickUniversity}
+              active={note === "dataUniversity"}
             />
           </>
         )}

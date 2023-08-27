@@ -2,7 +2,7 @@ export const dataUniversity = [
   {
     number: "1",
     symbol: "/",
-    text: "** university",
+    text: "** schooling",
   },
   {
     number: "2",

@@ -57,17 +57,17 @@ export const dataTrips = [
   {
     number: "12",
     symbol: "*",
-    text: "Cataratas del Iguazú is the most powerfull place in the world and ",
+    text: "Cataratas del Iguazú is the most powerfull  ",
   },
   {
     number: "13",
     symbol: "*",
-    text: "powerfull place in the world and ",
+    text: "place in the world and powerfull place in the world",
   },
   {
     number: "14",
     symbol: "*",
-    text: "Ushiaia is simply a place without compartion",
+    text: "and Ushiaia is simply a place without compartion",
   },
   {
     number: "15",

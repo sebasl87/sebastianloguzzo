@@ -14,11 +14,11 @@ import {
   dataMusic,
   dataTrips,
   dataFamily,
-  dataHight,
+
   dataUniversity,
   dataOthers,
   dataUniversityMobile,
-  dataHightMobile,
+
   dataOthersMobile,
   dataTripsMobile,
   dataMusicMobile,
@@ -148,7 +148,7 @@ const AboutMe = () => {
   const handeClickEducation = () => {
     setSection("");
     setSection("education");
-    setNote("dataHight");
+    setNote("dataUniversity");
   };
 
   const handeClickClose = () => {
@@ -183,7 +183,6 @@ const AboutMe = () => {
               handleClickHardware={() => setNote("dataTrips")}
               handleClickMusic={() => setNote("dataMusic")}
               handleClickFamily={() => setNote("dataFamily")}
-              handleClickHight={() => setNote("dataHight")}
               handleClickUniversity={() => setNote("dataUniversity")}
               handleClickOthers={() => setNote("dataOthers")}
               handleClickPersonal={handeClickBio}
@@ -217,10 +216,8 @@ const AboutMe = () => {
                             ? "music"
                             : note === "dataFamily"
                             ? "family"
-                            : note === "dataHight"
-                            ? "hight-school"
                             : note === "dataUniversity"
-                            ? "university"
+                            ? "schooling"
                             : note === "dataOthers"
                             ? "developer skills"
                             : "freelance"
@@ -255,8 +252,6 @@ const AboutMe = () => {
                       ? dataTrips
                       : note === "dataFamily"
                       ? dataFamily
-                      : note === "dataHight"
-                      ? dataHight
                       : note === "dataUniversity"
                       ? dataUniversity
                       : note === "dataOthers"
@@ -301,7 +296,6 @@ const AboutMe = () => {
               handleClickHardware={() => setNote("dataTrips")}
               handleClickMusic={() => setNote("dataMusic")}
               handleClickFamily={() => setNote("dataFamily")}
-              handleClickHight={() => setNote("dataHight")}
               handleClickUniversity={() => setNote("dataUniversity")}
               handleClickOthers={() => setNote("dataOthers")}
               handleClickPersonal={handeClickBio}
@@ -334,7 +328,7 @@ const AboutMe = () => {
                   ? dataIndecMobile
                   : note === "dataFreelance"
                   ? dataFreelanceMobile
-                  : dataHightMobile
+                  : dataUniversitytMobile
               }
             />
             <ContactMe isMobile/>
