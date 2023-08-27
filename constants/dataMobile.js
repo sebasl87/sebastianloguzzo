@@ -1,83 +1,83 @@
 export const dataUniversityMobile = [
   {
-    title: "university",
-    text: "** university\n\n I pursued my Bachelor's Degree in Accounting at Universidad de Buenos Aires. It provided me with a strong academic foundation and a comprehensive understanding of accounting principles.\n\n ORT Argentina - Systems Analyst. I am currently pursuing a degree in Systems Analysis at ORT Argentina. This ongoing education allows me to combine my passion for numbers with the technological world, enhancing my capabilities in both fields. I am excited about the prospect of completing my degrees and leveraging my expertise in systems. /",
-  },
-];
-
-export const dataHightMobile = [
-  {
-    title: "hight-school",
-    text: "** high school\n\n Colegio San Agustín (1990 - 1994)\n\n During the period from 1990 to 1994, I completed my high school education at Colegio San Agustín. This foundational phase not only provided me with a strong academic background but also instilled essential values and a commitment to excellence that continue to guide me throughout my personal and professional life. /",
+    title: "schooling",
+    text: "/** schooling\n\nCODOACODO: 111mil program: Bases for develoment in HTML, JS, CSS, NodeJs\n\nUTN FRBA: App mobile developer: HTML, CSS, Javascript, SQL, Angular JS, IONIC, RN\n\nCESAE: Revenue Upsellin & Crosselling.\n\nMoron University: Hotel Bachelor's degree **/",
   },
 ];
 
 export const dataOthersMobile = [
   {
     title: "developer skills",
-    text: "** developer skills\n\n Frontend:\n\n Next.js, React.js - React Native, Redux Toolkit, Hooks.\n\n Unit Testing: Jest, RTL, Enzyme.\n\n Integration Testing: Cypress.\n\n Custom Components and libraries.\n\n Tailwind CSS, Styled Components, Emotion.\n\n Backend:\n\n Prisma, Node.js, Express.\n\n Databases: MongoDB, MySQL, Postgres.\n\n CI/CD/Deployment:\n\n Semaphore, Jenkins, Vercel, Heroku.\n\n Tools:\n\n Git, Husky, ESLint, NX Monorepo.\n\n Single-spa and Module Federation\n\n Micro-frontends. /",
+    text: "/** developer skills\n\n-> Frontend: Next.js, React.js, React Native, Redux Toolkit, Hooks.\n\nUnit Testing: Jest, RTL, Enzyme.\n\nIntegration Testing: Cypress. Custom Components and libraries. Tailwwind Css, Styled Components, Emotion.\n\n-> Backend: Node.js, Express, APIs.\n\n-> Databases: MongoDB, MySQL, Postgres, MariaDB.\n\n-> CI/CD/Deployment: Github Actions, Semaphore, Jenkins, Vercel, Heroku.\n\n-> Tools: Git, Husky, ESLint, NX Monorepo. Single-spa and Module Federation Micro-frontends, SCRUm, Kanban, Agile. **/",
   },
 ];
 
-export const dataHardwareMobile = [
+export const dataTripsMobile = [
   {
-    title: "computer-hardware",
-    text: "** PC hardware enthusiast\n\n Passionate about PC hardware and technology enthusiast. Experienced in assembling, upgrading, and optimizing computer systems. Always up-to-date with the latest trends and advancements in components. Eager to contribute and grow in the field of PC hardware to take technology to the next level. /",
+    title: "trips",
+    text: "/** globetrotter\n\nI'm hotel bachelor and I have an extensive experience in tourism but my passion is travel. I had opportunity to travel around the world and visited Sudeste Asiático, Europa, Estados Unidos, Brasil, Colombia, Chile, Venezuela and a lot of places in my beautiful Argentina.\n\nParis is amazing, Disney is unique, Phi Phi Island's beach is a paradise, Cataratas del Iguazú is the most powerful place in the world and Ushuaia is simply a place without comparison **/",
   },
 ];
 
 export const dataMusicMobile = [
   {
     title: "music",
-    text: "** music enthusiast\n\n As a devoted music enthusiast, I take great pleasure in both listening to music and actively participating in its creation. My guitar skills have allowed me to express my emotions and connect deeply with the art of melody. Additionally, I have set up a home studio, which has provided me with invaluable experience in music production and recording. /",
+    text: "/** music lover\n\nI enjoy all the music! I can listen tango, folklore, dance house even cumbia. I had different opportunities to travel and enjoy festivals as White Sensation in Chile, Ultra Miami and Armin Van Buuren in Sao Paulo. Also I enjoyed to watch different bands in Argentina.\n\nMusic is life.**/",
   },
 ];
 
 export const dataFamilyMobile = [
   {
     title: "family",
-    text: "** personal interests and family\n\n I am also a proud family man. I am happily married and have two wonderful children, aged 14 and 8 years old. Being a father is a source of immense joy and fulfillment, and I cherish the moments spent with my family. During my leisure time, I love engaging in outdoor activities and exploring new places with my loved ones. Playing with my children brings out the child in me, and I cherish every opportunity to create cherished memories with them. Spending quality time with my family is a priority, as it strengthens our bonds and fosters a sense of togetherness. Whether it's going on adventures, playing games, or simply enjoying each other's company, family time holds a special place in my heart. /",
+    text: "/**my family is priority 0\n\nI am proud of my family. Not just my two kids and wife even my daughter, mother, father, brother in law, mother in law, and father in law.\n\nI enjoy every moment with them, having a barbecue (Asado) or just drinking a hurry mate.\n\nI feel that my more important step in my life is and will be my family. **/",
   },
 ];
 
 export const dataAboutMeMobile = [
   {
     title: "about-me",
-    text: "**Hi! i'm Exequiel\n\n I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team. /",
+    text: "/**  I'm code fan and self-taught person.\n\nI enjoy learning about life every day and about frameworks and libs to enhance my skills and get new. I like working with people 'making magic with code's line'.\n\nI studied and worked in hospitality and service, so I work every day with empathy and humanism... not as a bot!\n\nBeing honest and respecting others is my rule. **/",
   },
 ];
 
 export const dataFalabellaMobile = [
   {
     title: "falabella financiero",
-    text: "** 2020 - Today\n\n Portal Fpay – Wallet for LATAM for Falabella Group, Frontend Developer.\n\n Project: Portal Comercio (Wallet of Falabella Bank)\n\n Sections: Home, Transactions, Last Movements, Calendar, Reports, Colaborators, Founds Out, etc...\n\n Implementation of MFE-Single Spa and module-federation.\n\n Collaborating in Frontend Core using ReactJs stacks.\n\n Some skills that I use: React, React Native, Hooks, Redux Toolkit, Material-UI, Styled Components, Storybook, Jest & Enzyme Testing, Micro-frontend... /",
+    text: "/** 2020 - Today / Frontend Developer\n\n Worked on developing Fpay’s platform V1 for customer's wallet operations.\n\n Worked with Fpay engineers on creating a components library with React, Styled-components, and Storybook.\n\n Worked on the migration of Fpay’s platform from React monolith to micro-frontends to improve simultaneous deploys without blocking other frontends and reduce dependencies.\n\nAptitudes: React Hooks · CSS · GitLab · Jenkins · Jest · Next.js · React.js · Redux.js · Scrum · HTML · Git · JavaScript · TypeScript · MUI · Styled Components · Storybook · Enzyme Testing · Micro-frontend, **/",
   },
 ];
 
-export const dataKinsperMobile = [
+export const dataHotelopMobile = [
   {
-    title: "kinsper",
-    text: "** 2023 - Today\n\n Freelance work\n\n Projects:\n\n Vetisure: platform for entry, control and management of insurance policies.\n\n Uverified: bank identity verification and management platform.\n\n In both projects in charge of frontend and backend.\n\n Skills: Next.js, Tailwind CSS, Prisma, Styled Components, FlowBite, Vercel, Clerk user management, TypeScript. /",
+    title: "hotelop",
+    text: "/** 2015 - 2022 / Co-Founder\n\nHotel Revenue Manager.\n\nLead revenue team and administration.\n\nDeveloped hotel apps and revenue platforms to improve the daily job.\n\nAptitudes: AngularJS · MySQL · PHP · GitHub · CSS · React.js · Node.js · HTML · Git · JavaScript · Express.js **/",
   },
 ];
 
 export const dataSkydropxMobile = [
   {
     title: "skydropx",
-    text: "** 2021 - 2022\n\n International Parcel Service\n\n Frontend Developer:\n\n Projects: SEO - Landings - Sales B2C\n\n Skills: Next.js, Hooks, Redux, Micro-FrontEnd, Own components lib, Material-UI and StoryBook, Styled components, Jest & Enzyme, TypeScript, Nx Monorepo, Cypress E2E Test, Emotion. /",
+    text: "/** 2021 - 2022 / Tech Lead Frontend\n\nLead a team of 5 engineers responsible for each Skydropx landing through each product and country.\n\nWorked on setting and providing a CMS to PO.\n\nIncreased the number of leads by developing a B2C calculator.\n\nEnhanced team members improving their knowledge and soft skills.\n\nWorked on code review and enhanced higher coverage.\n\nImproved Skydropx SEO by integrating structured data and upgrading performance.\n\nWorked on the migration of Skydropx’s website from HTML/CSS in Ruby to Next.js.\n\nAptitudes: GitHub · NX · CSS · Jest · React.js · Redux.js · Scrum · HTML · GraphQL · Git · JavaScript · TypeScript **/",
   },
 ];
 
-export const dataLapzoMobile = [
+export const dataIndecMobile = [
   {
-    title: "lapzo",
-    text: "** 2022\n\n Tech Lead.\n\n Online learning platform.\n\n In charge of the transfer team of the entire platform from React to Monorepo and the new design.\n\n The team consisted of both frontend and backend.\n\n Skills: Jira, Confluence, Agile Methodologies, Monorepo, ReactJs, Storybook. /",
+    title: "indec",
+    text: "/** 2020 - 2022 / Tech Lead Frontend\n\nLead frontend team to apply SOLID principles.\n\nDeployed versions for new app.\n\nCleaned code and had meetings with PO to enhance the app.\n\nWorked on a new app in React Native to get data of airport's travelers.\n\nCleaned the code from old versions to React 17.\n\nApplied unit tests to improve coverage.\n\nAptitudes: React Native · SQLite · Git · CSS · Jest · React · Redux · Scrum · HTML · Git · JavaScript · Express.js **/",
+  },
+];
+
+export const dataHumantechMobile = [
+  {
+    title: "humantech - AUNA",
+    text: "/** 2020 - 2021 / Frontend\n\nWorked with AUNA engineers creating a components library with Angular, Styled-components, and Storybook.\n\nApplied unit tests to upgrade coverage.\n\nImproved user experience in Ionic App.\n\nAptitudes: Ionic · AngularJS · PHP · GitHub · CSS · Jest · React.js · Node.js · HTML · JS · MongoDB · TS · Express.js **/",
   },
 ];
 
 export const dataFreelanceMobile = [
   {
     title: "freelance",
-    text: "** 2015 - Today\n\n Design of Web and Mobile Apps.\n\n Using: React, Hooks, Redux, Bootstrap, Styled Components, React Native, Material UI, StoryBook, Jest & Enzyme testing. TypeScript, Nx Monorepo, Cypress E2E Test, Emotion. /",
+    text: "/** 2016 - 2020\n\nWorked on many websites to improve frontend using React, Angular, and even PHP.\n\nDeployed Ionic apps in Playstore and Appstore.\n\nWorked on migration from Excel sheets to apps with Angular and MongoDB.\n\nAptitudes: Ionic · AngularJS · PHP · Git · CSS · Jest · React.js · Node.js · HTML · JS · MongoDB · TS · Express.js · Firebase **/",
   },
 ];

@@ -1,35 +1,37 @@
 import styled from "styled-components";
-import { AboutMeMenu, DisplayMobileInfoAboutMe, ContactMe } from "@/components/organisms";
 import { SectionCard, TextTable, TitleCard } from "@/components/atoms";
+import { AboutMeMenu, DisplayMobileInfoAboutMe, ContactMe } from "@/components/organisms";
+import { SnipetsAboutMe } from "@/components/molecules";
 import { useState } from "react";
 import {
   dataAboutMe,
   dataFalabella,
-  dataKinsper,
+  dataHotelop,
+  dataHumantech,
   dataSkydropx,
-  dataLapzo,
+  dataIndec,
   dataFreelance,
   dataMusic,
-  dataHardware,
+  dataTrips,
   dataFamily,
-  dataHight,
+
   dataUniversity,
   dataOthers,
   dataUniversityMobile,
-  dataHightMobile,
+
   dataOthersMobile,
-  dataHardwareMobile,
+  dataTripsMobile,
   dataMusicMobile,
   dataFamilyMobile,
   dataAboutMeMobile,
   dataFalabellaMobile,
-  dataKinsperMobile,
+  dataHotelopMobile,
+  dataHumantechMobile,
   dataSkydropxMobile,
-  dataLapzoMobile,
+  dataIndecMobile,
   dataFreelanceMobile,
-} from "../../../constants";
-import { SnipetsAboutMe } from "../../molecules";
-import { useBreakpoints } from "../../../hooks/useBreakpoints";
+} from "@/constants";
+import { useBreakpoints } from "@/hooks/useBreakpoints";
 
 const Layout = styled.div`
   width: 100%;
@@ -140,13 +142,13 @@ const AboutMe = () => {
   const handeClickInterest = () => {
     setSection("");
     setSection("interest");
-    setNote("dataHardware");
+    setNote("dataTrips");
   };
 
   const handeClickEducation = () => {
     setSection("");
     setSection("education");
-    setNote("dataHight");
+    setNote("dataUniversity");
   };
 
   const handeClickClose = () => {
@@ -173,14 +175,14 @@ const AboutMe = () => {
               handeClickEducation={handeClickEducation}
               handleClickAboutMe={() => setNote("dataAboutMe")}
               handleClickFalabella={() => setNote("dataFalabella")}
-              handleClickKinsper={() => setNote("dataKinsper")}
+              handleClickHotelop={() => setNote("dataHotelop")}
               handleClickSkydropx={() => setNote("dataSkydropx")}
-              handleClickLapzo={() => setNote("dataLapzo")}
+              handleClickIndec={() => setNote("dataIndec")}
+              handleClickHumantech={() => setNote("dataHumantech")}
               handleClickFreelance={() => setNote("dataFreelance")}
-              handleClickHardware={() => setNote("dataHardware")}
+              handleClickHardware={() => setNote("dataTrips")}
               handleClickMusic={() => setNote("dataMusic")}
               handleClickFamily={() => setNote("dataFamily")}
-              handleClickHight={() => setNote("dataHight")}
               handleClickUniversity={() => setNote("dataUniversity")}
               handleClickOthers={() => setNote("dataOthers")}
               handleClickPersonal={handeClickBio}
@@ -200,22 +202,22 @@ const AboutMe = () => {
                             ? "about-me"
                             : note === "dataFalabella"
                             ? "falabella financiero"
-                            : note === "dataKinsper"
-                            ? "kinsper"
+                            : note === "dataHotelop"
+                            ? "hotelop"
                             : note === "dataSkydropx"
                             ? "skydropx"
-                            : note === "dataLapzo"
-                            ? "lapzo"
-                            : note === "dataHardware"
-                            ? "computer-hardware"
+                            : note === "dataIndec"
+                            ? "indec"
+                            : note === "dataHumantech"
+                            ? "humantech"
+                            : note === "dataTrips"
+                            ? "trips"
                             : note === "dataMusic"
                             ? "music"
                             : note === "dataFamily"
                             ? "family"
-                            : note === "dataHight"
-                            ? "hight-school"
                             : note === "dataUniversity"
-                            ? "university"
+                            ? "schooling"
                             : note === "dataOthers"
                             ? "developer skills"
                             : "freelance"
@@ -234,22 +236,22 @@ const AboutMe = () => {
                       ? dataAboutMe
                       : note === "dataFalabella"
                       ? dataFalabella
-                      : note === "dataKinsper"
-                      ? dataKinsper
+                      : note === "dataHotelop"
+                      ? dataHotelop
                       : note === "dataSkydropx"
                       ? dataSkydropx
-                      : note === "dataLapzo"
-                      ? dataLapzo
+                      : note === "dataIndec"
+                      ? dataIndec
+                      : note === "dataHumantech"
+                      ? dataHumantech
                       : note === "dataClear"
                       ? dataClear
                       : note === "dataMusic"
                       ? dataMusic
-                      : note === "dataHardware"
-                      ? dataHardware
+                      : note === "dataTrips"
+                      ? dataTrips
                       : note === "dataFamily"
                       ? dataFamily
-                      : note === "dataHight"
-                      ? dataHight
                       : note === "dataUniversity"
                       ? dataUniversity
                       : note === "dataOthers"
@@ -266,9 +268,10 @@ const AboutMe = () => {
             {!isLg &&
               (note === "dataAboutMe" ||
                 note === "dataSkydropx" ||
-                note === "dataLapzo" ||
+                note === "dataIndec" ||
+                note === "dataHumantech" ||
                 note === "dataFreelance" ||
-                note === "dataHardware" ||
+                note === "dataTrips" ||
                 note === "dataMusic") && <SnipetsAboutMe isMobile />}
           </Body>
         </>
@@ -285,14 +288,14 @@ const AboutMe = () => {
               handeClickEducation={handeClickEducation}
               handleClickAboutMe={() => setNote("dataAboutMe")}
               handleClickFalabella={() => setNote("dataFalabella")}
-              handleClickKinsper={() => setNote("dataKinsper")}
+              handleClickHotelop={() => setNote("dataHotelop")}
+              handleClickHumantech={() => setNote("dataHumantech")}
               handleClickSkydropx={() => setNote("dataSkydropx")}
-              handleClickLapzo={() => setNote("dataLapzo")}
+              handleClickIndec={() => setNote("dataIndec")}
               handleClickFreelance={() => setNote("dataFreelance")}
-              handleClickHardware={() => setNote("dataHardware")}
+              handleClickHardware={() => setNote("dataTrips")}
               handleClickMusic={() => setNote("dataMusic")}
               handleClickFamily={() => setNote("dataFamily")}
-              handleClickHight={() => setNote("dataHight")}
               handleClickUniversity={() => setNote("dataUniversity")}
               handleClickOthers={() => setNote("dataOthers")}
               handleClickPersonal={handeClickBio}
@@ -305,8 +308,8 @@ const AboutMe = () => {
                   ? dataUniversityMobile
                   : note === "dataOthers"
                   ? dataOthersMobile
-                  : note === "dataHardware"
-                  ? dataHardwareMobile
+                  : note === "dataTrips"
+                  ? dataTripsMobile
                   : note === "dataMusic"
                   ? dataMusicMobile
                   : note === "dataFamily"
@@ -315,15 +318,17 @@ const AboutMe = () => {
                   ? dataAboutMeMobile
                   : note === "dataFalabella"
                   ? dataFalabellaMobile
-                  : note === "dataKinsper"
-                  ? dataKinsperMobile
+                  : note === "dataHotelop"
+                  ? dataHotelopMobile
+                  : note === "dataHumantech"
+                  ? dataHumantechMobile
                   : note === "dataSkydropx"
                   ? dataSkydropxMobile
-                  : note === "dataLapzo"
-                  ? dataLapzoMobile
+                  : note === "dataIndec"
+                  ? dataIndecMobile
                   : note === "dataFreelance"
                   ? dataFreelanceMobile
-                  : dataHightMobile
+                  : dataUniversitytMobile
               }
             />
             <ContactMe isMobile/>

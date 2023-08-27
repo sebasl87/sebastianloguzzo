@@ -33,7 +33,7 @@ display: flex;
 `;
 
 const ImageLogo = styled.img`
-  width: 43px;
+  width: 20px;
   background-color: transparent;
 `;
 
@@ -86,7 +86,7 @@ export const Footer = () => {
         <Name>find me in:</Name>
         <Logo
           onClick={() =>
-            window.open("https://twitter.com/soyexequielsosa", "_blank")
+            window.open("https://twitter.com/loggi87", "_blank")
           }
         >
           <ImageLogo src="/twitter.svg" />
@@ -94,20 +94,20 @@ export const Footer = () => {
         <Logo
           right
           onClick={() =>
-            window.open("https://facebook.com/exequiel.sosa", "_blank")
+            window.open("https://www.linkedin.com/in/sebastian-loguzzo/", "_blank")
           }
         >
-          <ImageLogo src="/facebook.svg" />
+          <ImageLogo src="/linkedin.svg" />
         </Logo>
       </AlignContent>
       <NoneArea>.</NoneArea>
       <AlignContact>
         <MenuEnd
           onClick={() =>
-            window.open("https://github.com/exequielsosa", "_blank")
+            window.open("https://github.com/sebasl87", "_blank")
           }
         >
-          @exequielsosa <Image src="/github.svg" />
+          @sebasl87 <Image src="/github.svg" />
         </MenuEnd>
       </AlignContact>
     </Layout>

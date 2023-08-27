@@ -11,7 +11,7 @@ import {
   dataB2C,
   dataLabels,
   dataColombia,
-  dataLapzoCards,
+  dataIndecCards,
   dataAus,
   dataDillon,
   dataNidit,
@@ -22,7 +22,7 @@ import {
 import {
   dataLandingsMobile,
   dataLabelsMobile,
-  dataLapzoCardsMobile,
+  dataIndecCardsMobile,
   dataNiditMobile,
   dataVetiMobile,
 } from "../../../constants/dataCardsMobile";
@@ -193,7 +193,7 @@ const Project = () => {
   const [valueLandings, setCheckboxLandings] = useState(false);
   const [valueB2C, setCheckboxB2C] = useState(false);
   const [valueLabels, setCheckboxLabels] = useState(false);
-  const [valueLapzo, setCheckboxLapzo] = useState(false);
+  const [valueIndec, setCheckboxIndec] = useState(false);
   const [valueAus, setCheckboxAus] = useState(false);
   const [valueDillon, setCheckboxDillon] = useState(false);
   const [valueNidit, setCheckboxNidit] = useState(false);
@@ -208,7 +208,7 @@ const Project = () => {
     !valueLandings &&
     !valueB2C &&
     !valueLabels &&
-    !valueLapzo &&
+    !valueIndec &&
     !valueAus &&
     !valueDillon &&
     !valueNidit &&
@@ -230,7 +230,7 @@ const Project = () => {
                 valueLandings={valueLandings}
                 valueB2C={valueB2C}
                 valueLabels={valueLabels}
-                valueLapzo={valueLapzo}
+                valueIndec={valueIndec}
                 valueAus={valueAus}
                 valueDillon={valueDillon}
                 valueNidit={valueNidit}
@@ -243,7 +243,7 @@ const Project = () => {
                 }
                 onChangeB2C={({ target }) => setCheckboxB2C(!valueB2C)}
                 onChangeLabels={({ target }) => setCheckboxLabels(!valueLabels)}
-                onChangeLapzo={({ target }) => setCheckboxLapzo(!valueLapzo)}
+                onChangeIndec={({ target }) => setCheckboxIndec(!valueIndec)}
                 onChangeAus={({ target }) => setCheckboxAus(!valueAus)}
                 onChangeDillon={({ target }) => setCheckboxDillon(!valueDillon)}
                 onChangeNidit={({ target }) => setCheckboxNidit(!valueNidit)}
@@ -294,11 +294,11 @@ const Project = () => {
                         }
                       />
                     )}
-                    {valueLapzo && (
+                    {valueIndec && (
                       <SectionProjectCard
-                        sectionName="Lapzo"
+                        sectionName="Indec"
                         handleClickButtonClose={({ target }) =>
-                          setCheckboxLapzo(!valueLapzo)
+                          setCheckboxIndec(!valueIndec)
                         }
                       />
                     )}
@@ -371,7 +371,7 @@ const Project = () => {
                         isNoMobile
                       />
                       <CardProject
-                        dataCards={valueLapzo && dataLapzoCards}
+                        dataCards={valueIndec && dataIndecCards}
                         isNoMobile
                       />
                       <CardProject dataCards={valueAus && dataAus} isNoMobile />
@@ -418,7 +418,7 @@ const Project = () => {
                 valueLandings={valueLandings}
                 valueB2C={valueB2C}
                 valueLabels={valueLabels}
-                valueLapzo={valueLapzo}
+                valueIndec={valueIndec}
                 valueAus={valueAus}
                 valueDillon={valueDillon}
                 valueNidit={valueNidit}
@@ -431,7 +431,7 @@ const Project = () => {
                 }
                 onChangeB2C={({ target }) => setCheckboxB2C(!valueB2C)}
                 onChangeLabels={({ target }) => setCheckboxLabels(!valueLabels)}
-                onChangeLapzo={({ target }) => setCheckboxLapzo(!valueLapzo)}
+                onChangeIndec={({ target }) => setCheckboxIndec(!valueIndec)}
                 onChangeAus={({ target }) => setCheckboxAus(!valueAus)}
                 onChangeDillon={({ target }) => setCheckboxDillon(!valueDillon)}
                 onChangeNidit={({ target }) => setCheckboxNidit(!valueNidit)}
@@ -465,7 +465,7 @@ const Project = () => {
                 />
                 <CardProject
                   dataCards={
-                    valueLapzo && (isXs ? dataLapzoCardsMobile : dataLapzoCards)
+                    valueIndec && (isXs ? dataIndecCardsMobile : dataIndecCards)
                   }
                 />
                 <CardProject dataCards={valueAus && dataAus} />

@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 
 
-Sitemap: https://www.exequielsosa.com.ar/sitemap.xml
+Sitemap: https://www.sebastianloguzzo.com.ar/sitemap.xml

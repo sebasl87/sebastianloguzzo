@@ -12,19 +12,18 @@ const Layout = styled.div`
   background: transparent;
   border-left: 1px solid rgba(96, 123, 150, 0.4);
   border-right: 1px solid rgba(96, 123, 150, 0.4);
-  @media(max-height: 768px) { 
+  @media (max-height: 768px) {
     min-height: 720px;
-
   }
 `;
 
 const Body = styled.div`
-  width: 76%;  
+  width: 76%;
   display: flex;
   background: transparent;
   background-image: url("grid2.png");
   background-color: #011627;
-  @media(min-height: 768px) {
+  @media (min-height: 768px) {
     min-height: 720px;
   }
 `;
@@ -107,18 +106,18 @@ const ContactMe = () => {
             />
             {openContacts && (
               <>
-                <MailTo href="mailto:exequielsosa@gmail.com">
+                <MailTo href="mailto:sebastian.loguzzo@gmail.com">
                   <ContactSection
-                    title="exequielsosa@gmail.com"
+                    title="sebastian.loguzzo@gmail.com"
                     icon="/mailVector.svg"
                     isMobile
                   />
                 </MailTo>
                 <ContactSection
-                  title="+5491158959825"
+                  title="+5491132138668"
                   icon="/phoneVector.svg"
                   handleClick={() =>
-                    window.open("https://wa.me/541158959825", "_blank")
+                    window.open("https://wa.me/541132138668", "_blank")
                   }
                   isMobile
                 />
@@ -133,27 +132,27 @@ const ContactMe = () => {
             {openFindMe && (
               <>
                 <ContactSection
-                  title="Instagram accaunt"
-                  icon="/goTo.svg"
-                  handleClick={() =>
-                    window.open("https://instagram.com/exequielsosa", "_blank")
-                  }
-                  isMobile
-                />
-                <ContactSection
                   title="Linkedin profile"
                   icon="/goTo.svg"
                   handleClick={() =>
                     window.open(
-                      "https://linkedin.com/in/exequielsosa",
+                      "https://www.linkedin.com/in/sebastian-loguzzo/",
                       "_blank"
                     )
                   }
                   isMobile
                 />
+                <ContactSection
+                  title="Github account"
+                  icon="/goTo.svg"
+                  handleClick={() =>
+                    window.open("https://github.com/sebasl87", "_blank")
+                  }
+                  isMobile
+                />
               </>
             )}
-            <FormContact isMobile/>
+            <FormContact isMobile />
           </BodyMobile>
         </>
       )}

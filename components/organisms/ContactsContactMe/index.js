@@ -36,32 +36,32 @@ export const ContactsContactMe = () => {
     <Column>
       <LayoutMenu>
         <TitleSection title="contacts" isProject />
-        <MailTo href="mailto:exequielsosa@gmail.com">
+        <MailTo href="mailto:sebastian.loguzzo@gmail.com">
           <ContactSection
-            title="exequielsosa@gmail.com"
+            title="sebastian.loguzzo@gmail.com"
             icon="/mailVector.svg"
           />
         </MailTo>
         <ContactSection
-          title="+5491158959825"
+          title="+5491132138668"
           icon="/phoneVector.svg"
           handleClick={() =>
-            window.open("https://wa.me/541158959825", "_blank")
+            window.open("https://wa.me/541132138668", "_blank")
           }
         />
         <TitleSection title="find-me-also-in" isProject isComplete />
         <ContactSection
-          title="Instagram accaunt"
+          title="Github account"
           icon="/goTo.svg"
           handleClick={() =>
-            window.open("https://instagram.com/exequielsosa", "_blank")
+            window.open("https://github.com/sebasl87", "_blank")
           }
         />
         <ContactSection
           title="Linkedin profile"
           icon="/goTo.svg"
           handleClick={() =>
-            window.open("https://linkedin.com/in/exequielsosa", "_blank")
+            window.open("https://www.linkedin.com/in/sebastian-loguzzo/", "_blank")
           }
         />
       </LayoutMenu>

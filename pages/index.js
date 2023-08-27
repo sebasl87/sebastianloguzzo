@@ -1,4 +1,4 @@
-import Home from "../components/screens/Home";
+import Home from "@/components/screens/Home";
 import SeoHome from "@/seo/seoHome";
 
 export default function HomeScreen() {
