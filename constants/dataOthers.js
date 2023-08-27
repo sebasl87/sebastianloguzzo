@@ -1,18 +1,18 @@
 export const dataOthers = [
   {
     number: "1",
-    symbol: "/",
-    text: "** developer skills",
+    symbol: "/**",
+    text: "developer skills",
   },
   {
     number: "2",
     symbol: "*",
-    text: "Frontend:",
+    text: "-> Frontend:",
   },
   {
     number: "3",
     symbol: "*",
-    text: "Next.js, React.js - React Native, ",
+    text: "Next.js, React.js, React Native, ",
   },
   {
     number: "4",
@@ -42,32 +42,32 @@ export const dataOthers = [
   {
     number: "9",
     symbol: "*",
-    text: "Backend:",
+    text: "-> Backend:",
   },
   {
     number: "10",
     symbol: "*",
-    text: "Prisma, Node.js, Express.",
+    text: " Node.js, Express, APIs.",
   },
   {
     number: "11",
     symbol: "*",
-    text: " Databases: MongoDB, MySQL, Postgres.",
+    text: "-> Databases: MongoDB, MySQL, Postgres, MariaDB.",
   }, 
   {
     number: "12",
     symbol: "*",
-    text: "CI/CD/Deployment:",
+    text: "-> CI/CD/Deployment:",
   },
   {
     number: "13",
     symbol: "*",
-    text: "Semaphore, Jenkins, Vercel, Heroku.",
+    text: "Github Actions, Semaphore, Jenkins, Vercel, Heroku.",
   },
   {
     number: "14",
     symbol: "*",
-    text: "Tools:",
+    text: "-> Tools:",
   },
   {
     number: "15",
@@ -82,11 +82,11 @@ export const dataOthers = [
   {
     number: "17",
     symbol: "*",
-    text: "Micro-frontends.",
+    text: "Micro-frontends, SCRUm, Kanban, Agile.",
   },  
   {
     number: "18",
-    symbol: "*",
-    text: "/",
+    symbol: "**/",
+    text: "",
   }, 
 ];

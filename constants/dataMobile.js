@@ -1,7 +1,7 @@
 export const dataUniversityMobile = [
   {
-    title: "university",
-    text: "** university\n\n I pursued my Bachelor's Degree in Accounting at Universidad de Buenos Aires. It provided me with a strong academic foundation and a comprehensive understanding of accounting principles.\n\n ORT Argentina - Systems Analyst. I am currently pursuing a degree in Systems Analysis at ORT Argentina. This ongoing education allows me to combine my passion for numbers with the technological world, enhancing my capabilities in both fields. I am excited about the prospect of completing my degrees and leveraging my expertise in systems. /",
+    title: "schooling",
+    text: "** schooling\n\n I pursued my Bachelor's Degree in Accounting at Universidad de Buenos Aires. It provided me with a strong academic foundation and a comprehensive understanding of accounting principles.\n\n ORT Argentina - Systems Analyst. I am currently pursuing a degree in Systems Analysis at ORT Argentina. This ongoing education allows me to combine my passion for numbers with the technological world, enhancing my capabilities in both fields. I am excited about the prospect of completing my degrees and leveraging my expertise in systems. /",
   },
 ];
 
