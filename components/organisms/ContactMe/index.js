@@ -19,8 +19,8 @@ export const ContactMe = () => {
   return (
     <Layout>
       <TitleSection title="contacts" isComplete isMobile/>
-      <MailTo href="mailto:exequielsosa@gmail.com">
-        <ContactSection title="exequielsosa@gmail.com" icon="/mailVector.svg" isMobile />
+      <MailTo href="mailto:sebastian.loguzzo@gmail.com">
+        <ContactSection title="sebastian.loguzzo@gmail.com" icon="/mailVector.svg" isMobile />
       </MailTo>
       <ContactSection
         title="+5491158959825"

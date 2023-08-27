@@ -6,12 +6,12 @@ const SeoAbout = () => {
     <title>_about-me | Seba Loguzzo | Front-end developer</title>
     <meta
       name="description"
-      content="Hi! i'm Exequiel. I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team. In this section of my website, I'm going to tell you a little about my professional history, my likes, hobbies, and about my studies and knowledge."
+      content="Hi! i'm Seba. I'm code fan and self-taught person.\n\nI enjoy learning about life every day and about frameworks and libs to enhance my skills and get new. I like working with people 'making magic with code's line'.\n\nI studied and worked in hospitality and service, so I work every day with empathy and humanism... not as a bot!\n\nBeing honest and respecting others is my rule."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index,follow" />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="canonical" href="https://www.exequielsosa.com.ar/about-me" />
+    <link rel="canonical" href="https://www.sebastianloguzzo.com.ar/about-me" />
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
@@ -22,9 +22,9 @@ const SeoAbout = () => {
     <meta property="og:title" content="_about-me | Seba Loguzzo | Front-end developer" />
     <meta
       property="og:description"
-      content="Hi! i'm Exequiel. I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team. In this section of my website, I'm going to tell you a little about my professional history, my likes, hobbies, and about my studies and knowledge."
+      content="Hi! i'm Seba. I'm code fan and self-taught person.\n\nI enjoy learning about life every day and about frameworks and libs to enhance my skills and get new. I like working with people 'making magic with code's line'.\n\nI studied and worked in hospitality and service, so I work every day with empathy and humanism... not as a bot!\n\nBeing honest and respecting others is my rule."
     />
-    <meta property="og:url" content="https://www.exequielsosa.com.ar/about-me" />
+    <meta property="og:url" content="https://www.sebastianloguzzo.com.ar/about-me" />
     <meta name="title" content="_about-me | Seba Loguzzo | Front-end developer" />
     <meta
       name="keywords"
