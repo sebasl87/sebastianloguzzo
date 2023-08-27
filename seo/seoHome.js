@@ -3,7 +3,7 @@ import Head from "next/head";
 const SeoHome = () => {
   return (
     <Head>
-      <title>Exequiel Sosa | Front-end developer</title>
+      <title>Seba Loguzzo | Front-end developer</title>
       <meta
         name="description"
         content="Hi! i'm Exequiel. I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team."
@@ -17,15 +17,15 @@ const SeoHome = () => {
       <meta property="og:type" content="article" />
       <meta
         property="og:site_name"
-        content="Exequiel Sosa | Front-end developer"
+        content="Seba Loguzzo | Front-end developer"
       />
-      <meta property="og:title" content="Exequiel Sosa | Front-end developer" />
+      <meta property="og:title" content="Seba Loguzzo | Front-end developer" />
       <meta
         property="og:description"
         content="Hi! i'm Exequiel. I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team."
       />
       <meta property="og:url" content="https://www.exequielsosa.com.ar" />
-      <meta name="title" content="Exequiel Sosa | Front-end developer" />
+      <meta name="title" content="Seba Loguzzo | Front-end developer" />
       <meta
         name="keywords"
         content="Front, End, Design, User, Interface, Design, JavaScript, Collaboration, HTML, Communication, Skills, Technical, Software Development,

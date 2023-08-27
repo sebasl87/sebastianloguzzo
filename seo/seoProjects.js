@@ -3,7 +3,7 @@ import Head from "next/head";
 const SeoProjects = () => {
   return (
     <Head>
-    <title>_projects | Exequiel Sosa | Front-end developer</title>
+    <title>_projects | Seba Loguzzo | Front-end developer</title>
     <meta
       name="description"
       content="Hi! i'm Exequiel. I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team. In this section, you will be able to learn about some of my projects and works."
@@ -17,15 +17,15 @@ const SeoProjects = () => {
     <meta property="og:type" content="article" />
     <meta
       property="og:site_name"
-      content="_projects | Exequiel Sosa | Front-end developer"
+      content="_projects | Seba Loguzzo | Front-end developer"
     />
-    <meta property="og:title" content="_projects | Exequiel Sosa | Front-end developer" />
+    <meta property="og:title" content="_projects | Seba Loguzzo | Front-end developer" />
     <meta
       property="og:description"
       content="Hi! i'm Exequiel. I am a proactive and adaptable professional with a passion for web programming. Transitioning from finance/economy to development, I am driven by a love for continuous learning and making a positive impact. Each day, I find joy in my work, and I am eager to contribute my expertise to my team. In this section, you will be able to learn about some of my projects and works."
     />
     <meta property="og:url" content="https://www.exequielsosa.com.ar/about-me" />
-    <meta name="title" content="_projects | Exequiel Sosa | Front-end developer" />
+    <meta name="title" content="_projects | Seba Loguzzo | Front-end developer" />
     <meta
       name="keywords"
       content="Front, End, Design, User, Interface, Design, JavaScript, Collaboration, HTML, Communication, Skills, Technical, Software Development,

@@ -54,8 +54,8 @@ export const FormContact = ({ isMobile }) => {
     setTimeout(() => {
       if (isMobile) {
         const mensaje =
-          "whatsapp://send?phone=541158959825" +
-          "&text=*Thank you for getting in touch with Exequiel Sosa - FrontEnd Developer.*%0A*Name:*%0A" +
+          "whatsapp://send?phone=541132138668" +
+          "&text=*Thank you for getting in touch with Seba Loguzzo - FrontEnd Developer.*%0A*Name:*%0A" +
           name +
           "%0A*email:*%0A" +
           email +
@@ -64,8 +64,8 @@ export const FormContact = ({ isMobile }) => {
         window.open(mensaje, "_blank");
       } else {
         const mensaje =
-          "https://web.whatsapp.com/send?phone=541158959825" +
-          "&text=*Thank you for getting in touch with Exequiel Sosa - FrontEnd Developer.*%0A*Name:*%0A" +
+          "https://web.whatsapp.com/send?phone=541132138668" +
+          "&text=*Thank you for getting in touch with Seba Loguzzo - FrontEnd Developer.*%0A*Name:*%0A" +
           name +
           "%0A*email:*%0A" +
           email +

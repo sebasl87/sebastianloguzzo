@@ -48,15 +48,6 @@ export const dataColombia = [
   },
 ];
 
-export const dataIndecCards = [
-  {
-    nameProject: "Indec by lernit",
-    nameDetail: "// _learning",
-    projectDescription: "Technical leader of the new learning platform",
-    url: 'url("indec.png")',
-    link: "https://universidadoxxogas.com/",
-  },
-];
 
 export const dataAus = [
   {
@@ -70,11 +61,11 @@ export const dataAus = [
 
 export const dataDillon = [
   {
-    nameProject: "estudio-dillon.com",
+    nameProject: "auna",
     nameDetail: "// _accounting",
-    projectDescription: "Accounting firm website",
-    url: 'url("estudio.png")',
-    link: "https://www.estudio-dillon.com/",
+    projectDescription: "Health insurance",
+    url: 'url("auna.png")',
+    link: "https://www.auna.org/pe",
   },
 ];
 
@@ -90,20 +81,10 @@ export const dataNidit = [
 
 export const dataVeti = [
   {
-    nameProject: "Vetinsure",
-    nameDetail: "// _prisma.io",
-    projectDescription: "Insurance policy management system",
-    url: 'url("vetinsure.png")',
-    link: "https://dev-vetinsure.vercel.app/login",
-  },
-];
-
-export const dataUverified = [
-  {
-    nameProject: "Uverified",
-    nameDetail: "// _bank-id",
-    projectDescription: "Banking identity validation system - in progress",
-    url: 'url("uverified.png")',
-    link: "https://dev-uverified.vercel.app/login",
+    nameProject: "Hotelop",
+    nameDetail: "// _home-page",
+    projectDescription: "Hotel Revenue Management",
+    url: 'url("hotelop.jpg")',
+    link: "http://www.hotelop.com/",
   },
 ];

@@ -69,19 +69,13 @@ export const MenuProjects = ({
         onChange={onChangeColombia}
       />
       <CheckBox
-        label="Indec by lernit"
-        value={valueIndec}
-        checked={valueIndec}
-        onChange={onChangeIndec}
-      />
-      <CheckBox
         label="aUshuaia.com"
         value={valueAus}
         checked={valueAus}
         onChange={onChangeAus}
       />
       <CheckBox
-        label="estudio-dillon.com"
+        label="auna"
         value={valueDillon}
         checked={valueDillon}
         onChange={onChangeDillon}
@@ -93,16 +87,10 @@ export const MenuProjects = ({
         onChange={onChangeNidit}
       />
        <CheckBox
-        label="Vetinsure - Hotelop"
+        label="Hotelop"
         value={valueVeti}
         checked={valueVeti}
         onChange={onChangeVeti}
-      />
-      <CheckBox
-        label="Uverified - Hotelop"
-        value={valueUverified}
-        checked={valueUverified}
-        onChange={onChangeUverified}
       />
     </Layout>
   );

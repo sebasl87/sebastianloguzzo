@@ -151,9 +151,9 @@ export const SnipetsAboutMe = ({ isMobile, empty }) => {
         <Layout>
           <ContainerFront>
             <ContainerAvatar>
-              <Avatar src="/avatarExe.png" />
+              <Avatar src="/avatarSeba.png" />
               <ContainerText>
-                <UserName>@exequielsosa</UserName>
+                <UserName>@sebasl87</UserName>
                 <DetailName>Created 5 months ago</DetailName>
               </ContainerText>
             </ContainerAvatar>
@@ -178,9 +178,9 @@ export const SnipetsAboutMe = ({ isMobile, empty }) => {
             <Layout>
               <ContainerFront>
                 <ContainerAvatar>
-                  <Avatar src="/avatarExe.png" />
+                  <Avatar src="/avatarSeba.png" />
                   <ContainerText>
-                    <UserName>@exequielsosa</UserName>
+                    <UserName>@sebasl87</UserName>
                     <DetailName>Created 9 months ago</DetailName>
                   </ContainerText>
                 </ContainerAvatar>

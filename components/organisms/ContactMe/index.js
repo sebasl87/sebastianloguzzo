@@ -25,7 +25,7 @@ export const ContactMe = () => {
       <ContactSection
         title="+5491158959825"
         icon="/phoneVector.svg"
-        handleClick={() => window.open("https://wa.me/541158959825", "_blank")}
+        handleClick={() => window.open("https://wa.me/541132138668", "_blank")}
         isMobile
       />
     </Layout>

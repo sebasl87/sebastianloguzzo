@@ -48,16 +48,6 @@ export const dataColombiaMobile = [
   },
 ];
 
-export const dataIndecCardsMobile = [
-  {
-    nameProject: "Indec by lernit",
-    nameDetail: "// _learning",
-    projectDescription: "Technical leader of the new learning platform",
-    url: 'url("lapzo2.png")',
-    link: "https://universidadoxxogas.com/",
-  },
-];
-
 export const dataAusMobile = [
   {
     nameProject: "aUshuaia.com.ar",
@@ -68,13 +58,13 @@ export const dataAusMobile = [
   },
 ];
 
-export const dataDillonMobile = [
+export const dataDillon = [
   {
-    nameProject: "estudio-dillon.com",
+    nameProject: "auna",
     nameDetail: "// _accounting",
-    projectDescription: "Accounting firm website",
-    url: 'url("estudio.png")',
-    link: "https://www.estudio-dillon.com/",
+    projectDescription: "Health insurance",
+    url: 'url("auna.png")',
+    link: "https://www.auna.org/pe",
   },
 ];
 
@@ -90,20 +80,11 @@ export const dataNiditMobile = [
 
 export const dataVetiMobile = [
   {
-    nameProject: "Vetinsure",
-    nameDetail: "// _prisma.io",
-    projectDescription: "Insurance policy management system",
-    url: 'url("ventisure2.png")',
-    link: "https://dev-vetinsure.vercel.app/login",
+    nameProject: "Hotelop",
+    nameDetail: "// _home-page",
+    projectDescription: "Hotel Revenue Management",
+    url: 'url("hotelop.jpg")',
+    link: "http://www.hotelop.com/",
   },
 ];
 
-export const dataUverifiedMobile = [
-  {
-    nameProject: "Uverified",
-    nameDetail: "// _bank-id",
-    projectDescription: "Banking identity validation system - in progress",
-    url: 'url("uverified.png")',
-    link: "https://dev-uverified.vercel.app/login",
-  },
-];
