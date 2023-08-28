@@ -1,4 +1,4 @@
-export const GA_TRACKING_ID = "G-TE1F7D0YPF" //replace it with your measurement id
+export const GA_TRACKING_ID = "G-7BJY67QPWV" //replace it with your measurement id
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = url => {
