@@ -107,7 +107,7 @@ export const Footer = () => {
             window.open("https://github.com/sebasl87", "_blank")
           }
         >
-          @sebasl87 <Image src="/github.svg" />
+          @sebasl87 <Image src="/github.svg" alt="github"/>
         </MenuEnd>
       </AlignContact>
     </Layout>

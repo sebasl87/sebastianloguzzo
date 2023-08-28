@@ -33,7 +33,7 @@ const Layout = styled.div`
 export const SectionSelector = ({ nameSection, handleClick, active, isMobile }) => {
   return (
     <Layout onClick={handleClick}>
-      <ImageIcon src="/displayItems.svg" isMobile={isMobile} />
+      <ImageIcon src="/displayItems.svg" isMobile={isMobile} alt="displayItems" />
       <NameSection active={active}>{nameSection}</NameSection>
     </Layout>
   );

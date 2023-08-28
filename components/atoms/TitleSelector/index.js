@@ -42,7 +42,7 @@ export const TitleSelector = ({ sectionName, icon, isSelected, handleClick }) =>
         src={isSelected ? "/iconSelectedDisplay.svg" : "/iconSelected.svg"}
         isSelected={isSelected}
       />
-      <Image src={icon} />
+      <Image src={icon} alt="icon"/>
       <Name isSelected={isSelected}>{sectionName}</Name>
     </Layout>
   );

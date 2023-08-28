@@ -124,8 +124,8 @@ export const CardProject = ({ dataCards, isNoMobile }) => {
   return (
     <>
       {dataCards &&
-        dataCards?.map((item) => (
-          <LayoutGral isNoMobile={isNoMobile}>
+        dataCards?.map((item, i) => (
+          <LayoutGral isNoMobile={isNoMobile} key={item + i}>
             <ContainerTitle>
               <TitleName>{item.nameProject}</TitleName>
               <DetailName>{item.nameDetail}</DetailName>
