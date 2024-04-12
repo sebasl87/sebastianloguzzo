@@ -1,7 +1,7 @@
+import { useState } from "react";
 import { InputText, Label, TextArea, ButtonSubmit } from "@/components/atoms/";
 import { ThankYou } from "@/components/molecules/";
 import styled from "styled-components";
-import { useState } from "react";
 import { isMobile } from "react-device-detect";
 
 const GralLayout = styled.div`

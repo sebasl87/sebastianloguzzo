@@ -48,7 +48,6 @@ export const dataColombia = [
   },
 ];
 
-
 export const dataAus = [
   {
     nameProject: "aUshuaia.com.ar",
@@ -86,5 +85,45 @@ export const dataVeti = [
     projectDescription: "Hotel Revenue Management",
     url: 'url("hotelop.jpg")',
     link: "http://www.hotelop.com/",
+  },
+];
+
+export const dataClara = [
+  {
+    nameProject: "Clara Muzzio",
+    nameDetail: "// _goberment",
+    projectDescription: "Clara Muzzio's ministerial landing page",
+    url: 'url("claraMuzzion.png")',
+    link: "https://www.claramuzzio.com.ar",
+  },
+];
+
+export const dataCustom = [
+  {
+    nameProject: "custom-xs",
+    nameDetail: "// _developers",
+    projectDescription: "custom-xs developers page",
+    url: 'url("customxs.png")',
+    link: "https://www.custom-xs.com/",
+  },
+];
+
+export const dataKualiti = [
+  {
+    nameProject: "Grupo Kualiti",
+    nameDetail: "// _e-commerce",
+    projectDescription: "Integrated e-commerce with MercadoLibre",
+    url: 'url("kualiti.png")',
+    link: "https://www.quimicoskualiti.com/",
+  },
+];
+
+export const dataDanone = [
+  {
+    nameProject: "Danone",
+    nameDetail: "// _e-commerce",
+    projectDescription: "e-commerce B2B for Mexico",
+    url: 'url("danone.png")',
+    link: "https://www.mipedidodanone.com.mx/",
   },
 ];

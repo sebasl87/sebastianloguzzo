@@ -16,7 +16,10 @@ import {
   dataDillon,
   dataNidit,
   dataVeti,
-  dataUverified,
+  dataClara,
+  dataCustom,
+  dataKualiti,
+  dataDanone,
 } from "../../../constants/dataCards";
 
 import {
@@ -200,6 +203,10 @@ const Project = () => {
   const [valueColombia, setCheckboxColombia] = useState(false);
   const [valueVeti, setCheckboxVeti] = useState(false);
   const [valueUverified, setCheckboxUverified] = useState(false);
+  const [valueClara, setCheckboxClara] = useState(false);
+  const [valueCustom, setCheckboxCustom] = useState(false);
+  const [valueKualiti, setCheckboxKualiti] = useState(false);
+  const [valueDanone, setCheckboxDanone] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const toogleOpen = () => setIsOpen(!isOpen);
 
@@ -214,7 +221,11 @@ const Project = () => {
     !valueNidit &&
     !valueColombia &&
     !valueVeti &&
-    !valueUverified;
+    !valueUverified &&
+    !valueClara &&
+    !valueCustom &&
+    !valueKualiti &&
+    !valueDanone;
 
   const { isLg, isXs } = useBreakpoints();
   return (
@@ -237,6 +248,10 @@ const Project = () => {
                 valueColombia={valueColombia}
                 valueVeti={valueVeti}
                 valueUverified={valueUverified}
+                valueClara={valueClara}
+                valueCustom={valueCustom}
+                valueKualiti={valueKualiti}
+                valueDanone={valueDanone}
                 onChangeFpay={({ target }) => setCheckboxFpay(!valueFpay)}
                 onChangeLandings={({ target }) =>
                   setCheckboxLandings(!valueLandings)
@@ -254,6 +269,12 @@ const Project = () => {
                 onChangeUverified={({ target }) =>
                   setCheckboxUverified(!valueUverified)
                 }
+                onChangeClara={({ target }) => setCheckboxClara(!valueClara)}
+                onChangeCustom={({ target }) => setCheckboxCustom(!valueCustom)}
+                onChangeKualiti={({ target }) =>
+                  setCheckboxKualiti(!valueKualiti)
+                }
+                onChangeDanone={({ target }) => setCheckboxDanone(!valueDanone)}
               />
             </LayoutMenu>
           </Column>
@@ -350,6 +371,39 @@ const Project = () => {
                         }
                       />
                     )}
+                    {valueClara && (
+                      <SectionProjectCard
+                        sectionName="Clara Muzzio"
+                        handleClickButtonClose={({ target }) =>
+                          setCheckboxClara(!valueClara)
+                        }
+                      />
+                    )}
+
+                    {valueCustom && (
+                      <SectionProjectCard
+                        sectionName="custom-xs"
+                        handleClickButtonClose={({ target }) =>
+                          setCheckboxCustom(!valueCustom)
+                        }
+                      />
+                    )}
+                    {valueKualiti && (
+                      <SectionProjectCard
+                        sectionName="Kualiti"
+                        handleClickButtonClose={({ target }) =>
+                          setCheckboxKualiti(!valueKualiti)
+                        }
+                      />
+                    )}
+                    {valueDanone && (
+                      <SectionProjectCard
+                        sectionName="Danone"
+                        handleClickButtonClose={({ target }) =>
+                          setCheckboxDanone(!valueDanone)
+                        }
+                      />
+                    )}
                   </ContainerTags>
                 </ContainerNameSection>
                 <LayoutContainerCards>
@@ -392,7 +446,19 @@ const Project = () => {
                         isNoMobile
                       />
                       <CardProject
-                        dataCards={valueUverified && dataUverified}
+                        dataCards={valueClara && dataClara}
+                        isNoMobile
+                      />
+                      <CardProject
+                        dataCards={valueCustom && dataCustom}
+                        isNoMobile
+                      />
+                      <CardProject
+                        dataCards={valueKualiti && dataKualiti}
+                        isNoMobile
+                      />
+                      <CardProject
+                        dataCards={valueDanone && dataDanone}
                         isNoMobile
                       />
                     </ContainerCards>
@@ -425,6 +491,10 @@ const Project = () => {
                 valueColombia={valueColombia}
                 valueVeti={valueVeti}
                 valueUverified={valueUverified}
+                valueClara={valueClara}
+                valueCustom={valueCustom}
+                valueKualiti={valueKualiti}
+                valueDanone={valueDanone}
                 onChangeFpay={({ target }) => setCheckboxFpay(!valueFpay)}
                 onChangeLandings={({ target }) =>
                   setCheckboxLandings(!valueLandings)
@@ -442,6 +512,12 @@ const Project = () => {
                 onChangeUverified={({ target }) =>
                   setCheckboxUverified(!valueUverified)
                 }
+                onChangeClara={({ target }) => setCheckboxClara(!valueClara)}
+                onChangeCustom={({ target }) => setCheckboxCustom(!valueCustom)}
+                onChangeKualiti={({ target }) =>
+                  setCheckboxKualiti(!valueKualiti)
+                }
+                onChangeDanone={({ target }) => setCheckboxDanone(!valueDanone)}
                 isMobile
               />
             </DivMenu>
@@ -477,7 +553,10 @@ const Project = () => {
                 <CardProject
                   dataCards={valueVeti && (isXs ? dataVetiMobile : dataVeti)}
                 />
-                <CardProject dataCards={valueUverified && dataUverified} />
+                <CardProject dataCards={valueClara && dataClara} />
+                <CardProject dataCards={valueCustom && dataCustom} />
+                <CardProject dataCards={valueKualiti && dataKualiti} />
+                <CardProject dataCards={valueDanone && dataDanone} />
               </ContainerCardsMobile>
             )}
           </LayoutContainerCardsMobile>
