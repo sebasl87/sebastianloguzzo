@@ -250,6 +250,9 @@ export const AboutMeMenu = ({
                 window.open("https://wa.me/541132138668", "_blank")
               }
             />
+             <MailTo href="/SebastianLoguzzoResume.pdf" target="_blank">
+              <ContactSection title="download my resume" icon="/resume.svg" />
+            </MailTo>
           </>
         )}
       </DisplayMenu>

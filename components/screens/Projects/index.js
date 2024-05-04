@@ -13,9 +13,9 @@ import {
   dataColombia,
   dataIndecCards,
   dataAus,
-  dataDillon,
+  dataAuna,
   dataNidit,
-  dataVeti,
+  dataHop,
   dataClara,
   dataCustom,
   dataKualiti,
@@ -27,7 +27,7 @@ import {
   dataLabelsMobile,
   dataIndecCardsMobile,
   dataNiditMobile,
-  dataVetiMobile,
+  dataHopMobile,
 } from "../../../constants/dataCardsMobile";
 
 const TitleMobile = styled.div`
@@ -198,11 +198,10 @@ const Project = () => {
   const [valueLabels, setCheckboxLabels] = useState(false);
   const [valueIndec, setCheckboxIndec] = useState(false);
   const [valueAus, setCheckboxAus] = useState(false);
-  const [valueDillon, setCheckboxDillon] = useState(false);
+  const [valueAuna, setCheckboxAuna] = useState(false);
   const [valueNidit, setCheckboxNidit] = useState(false);
   const [valueColombia, setCheckboxColombia] = useState(false);
-  const [valueVeti, setCheckboxVeti] = useState(false);
-  const [valueUverified, setCheckboxUverified] = useState(false);
+  const [valueHop, setCheckboxHop] = useState(false);
   const [valueClara, setCheckboxClara] = useState(false);
   const [valueCustom, setCheckboxCustom] = useState(false);
   const [valueKualiti, setCheckboxKualiti] = useState(false);
@@ -217,11 +216,10 @@ const Project = () => {
     !valueLabels &&
     !valueIndec &&
     !valueAus &&
-    !valueDillon &&
+    !valueAuna &&
     !valueNidit &&
     !valueColombia &&
-    !valueVeti &&
-    !valueUverified &&
+    !valueHop &&
     !valueClara &&
     !valueCustom &&
     !valueKualiti &&
@@ -243,11 +241,10 @@ const Project = () => {
                 valueLabels={valueLabels}
                 valueIndec={valueIndec}
                 valueAus={valueAus}
-                valueDillon={valueDillon}
+                valueAuna={valueAuna}
                 valueNidit={valueNidit}
                 valueColombia={valueColombia}
-                valueVeti={valueVeti}
-                valueUverified={valueUverified}
+                valueHop={valueHop}
                 valueClara={valueClara}
                 valueCustom={valueCustom}
                 valueKualiti={valueKualiti}
@@ -260,15 +257,12 @@ const Project = () => {
                 onChangeLabels={({ target }) => setCheckboxLabels(!valueLabels)}
                 onChangeIndec={({ target }) => setCheckboxIndec(!valueIndec)}
                 onChangeAus={({ target }) => setCheckboxAus(!valueAus)}
-                onChangeDillon={({ target }) => setCheckboxDillon(!valueDillon)}
+                onChangeAuna={({ target }) => setCheckboxAuna(!valueAuna)}
                 onChangeNidit={({ target }) => setCheckboxNidit(!valueNidit)}
                 onChangeColombia={({ target }) =>
                   setCheckboxColombia(!valueColombia)
                 }
-                onChangeVeti={({ target }) => setCheckboxVeti(!valueVeti)}
-                onChangeUverified={({ target }) =>
-                  setCheckboxUverified(!valueUverified)
-                }
+                onChangeHop={({ target }) => setCheckboxHop(!valueHop)}
                 onChangeClara={({ target }) => setCheckboxClara(!valueClara)}
                 onChangeCustom={({ target }) => setCheckboxCustom(!valueCustom)}
                 onChangeKualiti={({ target }) =>
@@ -331,11 +325,11 @@ const Project = () => {
                         }
                       />
                     )}
-                    {valueDillon && (
+                    {valueAuna && (
                       <SectionProjectCard
                         sectionName="estudio"
                         handleClickButtonClose={({ target }) =>
-                          setCheckboxDillon(!valueDillon)
+                          setCheckboxAuna(!valueAuna)
                         }
                       />
                     )}
@@ -355,19 +349,11 @@ const Project = () => {
                         }
                       />
                     )}
-                    {valueVeti && (
+                    {valueHop && (
                       <SectionProjectCard
-                        sectionName="Vetinsure"
+                        sectionName="Hotelop"
                         handleClickButtonClose={({ target }) =>
-                          setCheckboxVeti(!valueVeti)
-                        }
-                      />
-                    )}
-                    {valueUverified && (
-                      <SectionProjectCard
-                        sectionName="Uverified"
-                        handleClickButtonClose={({ target }) =>
-                          setCheckboxUverified(!valueUverified)
+                          setCheckboxHop(!valueHop)
                         }
                       />
                     )}
@@ -430,7 +416,7 @@ const Project = () => {
                       />
                       <CardProject dataCards={valueAus && dataAus} isNoMobile />
                       <CardProject
-                        dataCards={valueDillon && dataDillon}
+                        dataCards={valueAuna && dataAuna}
                         isNoMobile
                       />
                       <CardProject
@@ -441,10 +427,7 @@ const Project = () => {
                         dataCards={valueColombia && dataColombia}
                         isNoMobile
                       />
-                      <CardProject
-                        dataCards={valueVeti && dataVeti}
-                        isNoMobile
-                      />
+                      <CardProject dataCards={valueHop && dataHop} isNoMobile />
                       <CardProject
                         dataCards={valueClara && dataClara}
                         isNoMobile
@@ -486,11 +469,10 @@ const Project = () => {
                 valueLabels={valueLabels}
                 valueIndec={valueIndec}
                 valueAus={valueAus}
-                valueDillon={valueDillon}
+                valueAuna={valueAuna}
                 valueNidit={valueNidit}
                 valueColombia={valueColombia}
-                valueVeti={valueVeti}
-                valueUverified={valueUverified}
+                valueHop={valueHop}
                 valueClara={valueClara}
                 valueCustom={valueCustom}
                 valueKualiti={valueKualiti}
@@ -503,15 +485,12 @@ const Project = () => {
                 onChangeLabels={({ target }) => setCheckboxLabels(!valueLabels)}
                 onChangeIndec={({ target }) => setCheckboxIndec(!valueIndec)}
                 onChangeAus={({ target }) => setCheckboxAus(!valueAus)}
-                onChangeDillon={({ target }) => setCheckboxDillon(!valueDillon)}
+                onChangeAuna={({ target }) => setCheckboxAuna(!valueAuna)}
                 onChangeNidit={({ target }) => setCheckboxNidit(!valueNidit)}
                 onChangeColombia={({ target }) =>
                   setCheckboxColombia(!valueColombia)
                 }
-                onChangeVeti={({ target }) => setCheckboxVeti(!valueVeti)}
-                onChangeUverified={({ target }) =>
-                  setCheckboxUverified(!valueUverified)
-                }
+                onChangeHop={({ target }) => setCheckboxHop(!valueHop)}
                 onChangeClara={({ target }) => setCheckboxClara(!valueClara)}
                 onChangeCustom={({ target }) => setCheckboxCustom(!valueCustom)}
                 onChangeKualiti={({ target }) =>
@@ -545,13 +524,13 @@ const Project = () => {
                   }
                 />
                 <CardProject dataCards={valueAus && dataAus} />
-                <CardProject dataCards={valueDillon && dataDillon} />
+                <CardProject dataCards={valueAuna && dataAuna} />
                 <CardProject
                   dataCards={valueNidit && (isXs ? dataNiditMobile : dataNidit)}
                 />
                 <CardProject dataCards={valueColombia && dataColombia} />
                 <CardProject
-                  dataCards={valueVeti && (isXs ? dataVetiMobile : dataVeti)}
+                  dataCards={valueHop && (isXs ? dataHopMobile : dataHop)}
                 />
                 <CardProject dataCards={valueClara && dataClara} />
                 <CardProject dataCards={valueCustom && dataCustom} />

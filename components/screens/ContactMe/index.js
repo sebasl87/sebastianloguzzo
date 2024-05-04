@@ -121,6 +121,16 @@ const ContactMe = () => {
                   }
                   isMobile
                 />
+                <MailTo
+                  href="/SebastianLoguzzoResume.pdf"
+                  target="_blank"
+                >
+                  <ContactSection
+                    title="download my resume"
+                    icon="/resume.svg"
+                    isMobile
+                  />
+                </MailTo>
               </>
             )}
             <TitleSelectorMobile

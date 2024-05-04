@@ -18,9 +18,13 @@ const Layout = styled.div`
 export const ContactMe = () => {
   return (
     <Layout>
-      <TitleSection title="contacts" isComplete isMobile/>
+      <TitleSection title="contacts" isComplete isMobile />
       <MailTo href="mailto:sebastian.loguzzo@gmail.com">
-        <ContactSection title="sebastian.loguzzo@gmail.com" icon="/mailVector.svg" isMobile />
+        <ContactSection
+          title="sebastian.loguzzo@gmail.com"
+          icon="/mailVector.svg"
+          isMobile
+        />
       </MailTo>
       <ContactSection
         title="+5491158959825"
@@ -28,6 +32,9 @@ export const ContactMe = () => {
         handleClick={() => window.open("https://wa.me/541132138668", "_blank")}
         isMobile
       />
+      <MailTo href="/ExequielIgnacioSosaResume2024.pdf" target="_blank">
+        <ContactSection title="download my resume" icon="/resume.svg" />
+      </MailTo>
     </Layout>
   );
 };

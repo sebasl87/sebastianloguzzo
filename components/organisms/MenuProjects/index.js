@@ -17,7 +17,7 @@ export const MenuProjects = ({
   valueLabels,
   valueIndec,
   valueAus,
-  valueDillon,
+  valueAuna,
   valueNidit,
   onChangeFpay,
   onChangeLandings,
@@ -25,12 +25,12 @@ export const MenuProjects = ({
   onChangeLabels,
   onChangeIndec,
   onChangeAus,
-  onChangeDillon,
+  onChangeAuna,
   onChangeNidit,
   valueColombia,
   onChangeColombia,
-  valueVeti,
-  onChangeVeti,
+  valueHop,
+  onChangeHop,
   valueClara,
   onChangeClara,
   valueCustom,
@@ -81,9 +81,9 @@ export const MenuProjects = ({
       />
       <CheckBox
         label="auna"
-        value={valueDillon}
-        checked={valueDillon}
-        onChange={onChangeDillon}
+        value={valueAuna}
+        checked={valueAuna}
+        onChange={onChangeAuna}
       />
       <CheckBox
         label="nidit!"
@@ -93,9 +93,9 @@ export const MenuProjects = ({
       />
       <CheckBox
         label="Hotelop"
-        value={valueVeti}
-        checked={valueVeti}
-        onChange={onChangeVeti}
+        value={valueHop}
+        checked={valueHop}
+        onChange={onChangeHop}
       />
       <CheckBox
         label="Clara Muzzio - custom-xs"

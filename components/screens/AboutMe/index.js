@@ -1,6 +1,10 @@
 import styled from "styled-components";
 import { SectionCard, TextTable, TitleCard } from "@/components/atoms";
-import { AboutMeMenu, DisplayMobileInfoAboutMe, ContactMe } from "@/components/organisms";
+import {
+  AboutMeMenu,
+  DisplayMobileInfoAboutMe,
+  ContactMe,
+} from "@/components/organisms";
 import { SnipetsAboutMe } from "@/components/molecules";
 import { useState } from "react";
 import {
@@ -14,11 +18,9 @@ import {
   dataMusic,
   dataTrips,
   dataFamily,
-
   dataUniversity,
   dataOthers,
   dataUniversityMobile,
-
   dataOthersMobile,
   dataTripsMobile,
   dataMusicMobile,
@@ -331,7 +333,7 @@ const AboutMe = () => {
                   : dataUniversitytMobile
               }
             />
-            <ContactMe isMobile/>
+            <ContactMe isMobile />
             <SnipetsAboutMe isMobile />
           </BodyMobile>
         </>

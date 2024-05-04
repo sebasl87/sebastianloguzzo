@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Layout = styled.div`
   width: 100%;
@@ -13,7 +14,7 @@ const Layout = styled.div`
 `;
 
 const Name = styled.div`
-  padding: 18px 22px;
+  padding: 12px 16px;
   width: 24%;
   border-right: 1px solid rgba(96, 123, 150, 0.4);
   color: rgba(96, 123, 150, 1);
@@ -24,7 +25,7 @@ const Name = styled.div`
 
 const MenuCenter = styled.div`
   z-index: 6;
-  padding: 18px 22px;
+  padding: 12px 16px;
   border-right: 1px solid rgba(96, 123, 150, 0.4);
   color: ${(props) => (props.isSelected ? "#fff" : "rgba(96, 123, 150, 1)")};
   border-bottom: ${(props) =>
@@ -39,7 +40,7 @@ const MenuCenter = styled.div`
 const MenuEnd = styled.div`
   z-index: 6;
   display: flex;
-  padding: 18px 22px;
+  padding: 12px 16px;
   border-left: 1px solid rgba(96, 123, 150, 0.4);
   color: ${(props) => (props.isSelected ? "#fff" : "rgba(96, 123, 150, 1)")};
   border-bottom: ${(props) =>
@@ -60,41 +61,110 @@ const AlignContent = styled.div`
 
 const AlignContact = styled.div`
   display: flex;
-  width: 17%;
+  width: 18%;
   background-color: transparent;
   justify-content: flex-end;
 `;
 
+const MenuEndWp = styled.div`
+  z-index: 6;
+  display: flex;
+  padding: 12px 16px;
+  border-left: 1px solid rgba(96, 123, 150, 0.4);
+  color: ${(props) => (props.isSelected ? "#fff" : "rgba(96, 123, 150, 1)")};
+  border-bottom: ${(props) =>
+    props.isSelected && "3px solid rgba(254, 165, 95, 1)"};
+  background-color: transparent;
+  &:hover {
+    background: rgba(30, 45, 61, 0.6);
+    cursor: pointer;
+  }
+`;
+
+const MenuEndResume = styled.a`
+  z-index: 6;
+  display: flex;
+  padding: 12px 16px;
+  border-left: 1px solid rgba(96, 123, 150, 0.4);
+  color: ${(props) => (props.isSelected ? "#fff" : "rgba(96, 123, 150, 1)")};
+  border-bottom: ${(props) =>
+    props.isSelected && "3px solid rgba(254, 165, 95, 1)"};
+  background-color: transparent;
+  &:hover {
+    background: rgba(30, 45, 61, 0.6);
+    cursor: pointer;
+  }
+`;
+
+const ImageLogo = styled.img`
+  width: 24px;
+  background-color: transparent;
+`;
+
+const ImageLogoResume = styled.img`
+  width: 20px;
+  background-color: transparent;
+`;
+
+
 export const Header = () => {
   const router = useRouter();
   const route = router.asPath;
+  const handleSubmit = () => {
+    setTimeout(() => {
+      if (isMobile) {
+        const mensaje =
+          "whatsapp://send?phone=541132138668" +
+          "&text=Thank you for getting in touch with Sebastian Loguzzo - FrontEnd Developer";
+        window.open(mensaje, "_blank");
+      } else {
+        const mensaje =
+          "https://web.whatsapp.com/send?phone=541132138668" +
+          "&text=Thank you for getting in touch with Sebastian Loguzzo - FrontEnd Developer";
+        window.open(mensaje, "_blank");
+      }
+    }, 1500);
+  };
+
   return (
     <Layout>
       <Name>sebastianloguzzo</Name>
       <AlignContent>
-        <MenuCenter isSelected={route === "/"} onClick={() => router.push("/")}>
-          _hello
-        </MenuCenter>
-        <MenuCenter
-          isSelected={route === "/about-me"}
-          onClick={() => router.push("/about-me")}
+        <Link
+          href="/"
+          style={{ background: "transparent", textDecoration: "none" }}
         >
-          _about-me
-        </MenuCenter>
-        <MenuCenter
-          isSelected={route === "/projects"}
-          onClick={() => router.push("/projects")}
+          <MenuCenter isSelected={route === "/"}>_hello</MenuCenter>
+        </Link>
+        <Link
+          href="/about-me"
+          style={{ background: "transparent", textDecoration: "none" }}
         >
-          _projects
-        </MenuCenter>
+          <MenuCenter isSelected={route === "/about-me"}>_about-me</MenuCenter>
+        </Link>
+        <Link
+          href="/projects"
+          style={{ background: "transparent", textDecoration: "none" }}
+        >
+          <MenuCenter isSelected={route === "/projects"}>_projects</MenuCenter>
+        </Link>
       </AlignContent>
       <AlignContact>
-        <MenuEnd
-          isSelected={route === "/contact-me"}
-          onClick={() => router.push("/contact-me")}
+        <MenuEndWp onClick={handleSubmit}>
+          <ImageLogo src="wp.svg" alt="img" />
+        </MenuEndWp>
+        <MenuEndResume
+          href="/SebastianLoguzzoResume.pdf"
+          target="_blank"
         >
-          _contact-me
-        </MenuEnd>
+          <ImageLogoResume src="resume2.svg" alt="img" />
+        </MenuEndResume>
+        <Link
+          href="/contact-me"
+          style={{ background: "transparent", textDecoration: "none" }}
+        >
+          <MenuEnd isSelected={route === "/contact-me"}>_contact-me</MenuEnd>
+        </Link>
       </AlignContact>
     </Layout>
   );

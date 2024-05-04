@@ -58,7 +58,7 @@ export const dataAusMobile = [
   },
 ];
 
-export const dataDillon = [
+export const dataAuna = [
   {
     nameProject: "auna",
     nameDetail: "// _accounting",
@@ -78,7 +78,7 @@ export const dataNiditMobile = [
   },
 ];
 
-export const dataVetiMobile = [
+export const dataHopMobile = [
   {
     nameProject: "Hotelop",
     nameDetail: "// _home-page",
